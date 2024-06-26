@@ -1,0 +1,303 @@
+body.modalOpen{
+  min-height: 100vh!important;
+  overflow: hidden;
+}
+.modal-overlay{
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index:999999;
+  left:0;
+  top:0;
+  width:100vw;
+  height:100vh;
+  background-color:#0000;
+}
+.modal-overlay.fadeOutOverlay{
+  -webkit-animation: hideOverlay 0.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+          animation: hideOverlay 0.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+.modal-overlay.fadeInOverlay{
+  -webkit-animation: showOverlay 0.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+          animation: showOverlay 0.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@-webkit-keyframes hideOverlay {
+  from {background-color: #0008;}
+  to {background-color: #0000;}
+}
+
+@keyframes hideOverlay {
+  from {background-color: #0008;}
+  to {background-color: #0000;}
+}
+
+@-webkit-keyframes showOverlay {
+  from {background-color: #0000;}
+  to {background-color: #0008;}
+}
+
+@keyframes showOverlay {
+  from {background-color: #0000;}
+  to {background-color: #0008;}
+}
+
+.fade-in-top {
+	-webkit-animation: fade-in-top 0.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in-top 0.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  -webkit-animation-delay: .18s;
+          animation-delay: .18s
+}
+
+
+@-webkit-keyframes fade-in-top {
+  0% {
+    -webkit-transform: translateY(-50px);
+            transform: translateY(-50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-in-top {
+  0% {
+    -webkit-transform: translateY(-50px);
+            transform: translateY(-50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.fade-out-top {
+	-webkit-animation: fade-out-top 0.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-out-top 0.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+@-webkit-keyframes fade-out-top {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translateY(-50px);
+            transform: translateY(-50px);
+    opacity: 0;
+  }
+}
+@keyframes fade-out-top {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translateY(-50px);
+            transform: translateY(-50px);
+    opacity: 0;
+  }
+}
+
+
+
+.modal{
+  position: relative;
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-color: #fff;
+  border-radius: 30px;
+  padding:45px 0 45px 45px;
+  color:#000;
+  -webkit-box-shadow:0 10px 10px 3px #0001;
+          box-shadow:0 10px 10px 3px #0001;
+  max-width:1100px
+}
+
+.modal #closeIcon{
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  width: 25px;
+  height:25px;
+  z-index: 50
+}
+.modal .closeIcon{
+  width:20px;
+  height:20px;
+}
+
+
+.modal .row{
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.modal .popupImg{
+  max-height: 510px;
+  float: right;
+  -webkit-transform: translateY(-20%) translateX(10%);
+      -ms-transform: translateY(-20%) translateX(10%);
+          transform: translateY(-20%) translateX(10%);
+  margin-bottom: -20%;
+}
+
+/*buttons*/
+.modal .wp-block-button__link, .btn-secondary{
+  padding:16px 35px 17px
+}
+.btn-secondary{
+  border:2px solid #000;
+  border-radius: 30px;
+  text-transform: uppercase;
+  margin-left:25px
+}
+.btn-secondary:hover{
+  background-color: #000;
+  color:#fff;
+  opacity: 1
+}
+
+
+/*fonts*/
+.modal h2{
+  font-size: 44px;
+  line-height: 120%;
+  margin:0 0 30px
+}
+.modal p{
+  font-size: 18px;
+  line-height: 150%;
+  margin:15px 0 40px;
+}
+
+
+
+
+/*resposnive*/
+@media all and (min-width:800px){
+  .modal .col{
+    width:50%
+  }
+}
+
+@media all and (max-width:1200px){
+  .modal .popupImg{
+    -webkit-transform:translateY(-20%) translateX(10%);
+        -ms-transform:translateY(-20%) translateX(10%);
+            transform:translateY(-20%) translateX(10%)
+  }
+}
+
+@media all and (max-width:1030px){
+  .modal h2{
+    font-size:36px
+  }
+  .modal p{
+    font-size:16px
+  }
+  .modal .col:first-child{
+    width:60%
+  }
+  .modal .col:last-child{
+    width:40%
+  }
+  .modal .popupImg{
+    -webkit-transform:translateY(-12%) translateX(5%);
+        -ms-transform:translateY(-12%) translateX(5%);
+            transform:translateY(-12%) translateX(5%)
+  }
+}
+
+
+
+@media screen and (max-width:870px){
+  .modal .row .col:last-child{
+    display: none
+  }
+  .modal .row .col{
+    width: 100%
+  }
+  .modal #closeIcon{
+    display: none;
+  }
+  .modal{
+    padding:35px 25px 25px;
+  }
+}
+
+
+@media screen and (max-width:600px){
+  .modal h2{
+    font-size:27px;
+    text-align: center;
+    margin: 0 0 25px;
+  }
+  .modal p{
+    font-size:16px;
+    margin: 0px 0 20px;
+    text-align: center;
+  }
+  .modal .row{
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap
+  }
+  .modal .col{
+    width:100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center
+  }
+  .modal .wp-block-button__link, .btn-secondary{
+    font-size:16px;
+    padding:12px 25px 13px;
+    width:100%
+  }
+  .modal .btn-secondary{
+    margin:15px 0 0 0;
+    text-align: center;
+    border:0;
+    padding:5px 22px
+  }
+  .modal .btnCont{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width:100%
+  }
+}

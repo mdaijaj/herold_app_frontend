@@ -1,0 +1,35 @@
+.block .present-inner .carde-slider .card .text:before {
+    content: "";
+    background-image: url('https://www.herold.at/marketing/wp-content/themes/heroldmarketing/img/check-mark-black.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    left: -35px;
+    top: 9px;
+    width: 20px;
+    height: 20px;
+}
+
+.citation .citation-inner .right-citation p {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 50;
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+
+.citation .citation-inner .right-citation p *,
+.citation .citation-inner .right-citation p {
+    font-style: normal;
+    font-weight: 200;
+}
+
+.citation .citation-inner .right-citation p {
+    margin: 0;
+    padding: 0;
+}
+
+.citation .citation-inner .right-citation p:first-child {
+    margin-bottom: 20px;
+}

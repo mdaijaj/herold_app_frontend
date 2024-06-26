@@ -1,0 +1,27 @@
+/*--------------------------------------------------------------
+# GF FORM ERRORS
+--------------------------------------------------------------*/
+.gform_wrapper div.validation_error {
+    display: none;
+}
+
+body .gform_wrapper li.gfield.gfield_error, body .gform_wrapper li.gfield.gfield_error.gfield_contains_required.gfield_creditcard_warning {
+    background: 0; 
+    margin-bottom: 0!important;
+    border: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+body .gform_wrapper .field_description_below .gfield_description {
+    padding-top: 0;
+}
+
+body .gform_wrapper li.gfield_error input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]), body.gform_wrapper li.gfield_error textarea, body .gform_wrapper .top_label .gfield_error textarea.textarea  {
+    border: 0.1rem solid #ef0303;
+}
+
+body .gform_wrapper .validation_message {
+    color: #ef0303;
+    font-weight: 400;
+}

@@ -1,0 +1,21 @@
+HTTrack3.49-2+htsswf+htsjava launched on Thu, 29 Feb 2024 15:58:35 at https://www.karriere.herold.at/ueber-herold +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://www.karriere.herold.at/ueber-herold -O1 "C:\Users\SANDIP\Desktop\about us" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+16:04:31	Error: 	"Bad Request" (400) at link https://www.googletagmanager.com/gtm.js?id= (from https://www.karriere.herold.at/ueber-herold)
+16:08:24	Error: 	"Bad Request" (400) at link https://sgtm.herold.at/gtm.js?id= (from https://www.karriere.herold.at/ueber-herold)
+16:08:24	Error: 	"Not Found" (404) at link https://www.herold.at/cms/apps/chatbot/chatbot.js (from https://www.karriere.herold.at/ueber-herold)
+16:08:25	Error: 	"Not Found" (404) at link https://site-assets.cdnmns.com/assets/css/img/hcaptcha-badge-tool.png (from https://site-assets.cdnmns.com/373112e167f382e58a142456f0fdbb68/css/hcaptcha.css?1709199525372)
+16:08:30	Error: 	"Not Found" (404) at link https://site-assets.cdnmns.com/373112e167f382e58a142456f0fdbb68/css/images/layers.png (from https://site-assets.cdnmns.com/373112e167f382e58a142456f0fdbb68/css/external-libs.css?1709199525372)
+16:08:30	Error: 	"Not Found" (404) at link https://site-assets.cdnmns.com/373112e167f382e58a142456f0fdbb68/css/images/layers-2x.png (from https://site-assets.cdnmns.com/373112e167f382e58a142456f0fdbb68/css/external-libs.css?1709199525372)
+16:08:30	Error: 	"Not Found" (404) at link https://site-assets.cdnmns.com/373112e167f382e58a142456f0fdbb68/css/images/geocoder.png (from https://site-assets.cdnmns.com/373112e167f382e58a142456f0fdbb68/css/external-libs.css?1709199525372)
+16:08:30	Error: 	"Not Found" (404) at link https://site-assets.cdnmns.com/373112e167f382e58a142456f0fdbb68/css/images/throbber.gif (from https://site-assets.cdnmns.com/373112e167f382e58a142456f0fdbb68/css/external-libs.css?1709199525372)
+16:10:43	Error: 	"Not Found" (404) at link https://www.karriere.herold.at/assets/css/icons/6.323 (from https://www.karriere.herold.at/assets/css/icons/discover.svg)
+16:10:43	Error: 	"Error when decompressing" (-1) at link https://www.karriere.herold.at/karriere-bei-herold/uebersicht/Folgender Link führt direkt zur kostenlosen Anmeldung mit dem Code: https://online-karrieretag.de/wien/anmeldung?discount=HEROLD (from https://www.karriere.herold.at/karriere-bei-herold/uebersicht/jobs-bewerbung)
+
+HTTrack Website Copier/3.49-2 mirror complete in 12 minutes 19 seconds : 1434 links scanned, 1422 files written (95472084 bytes overall) [93691038 bytes received at 126780 bytes/sec], 3716111 bytes transferred using HTTP compression in 50 files, ratio 26%, 41.5 requests per connection
+(10 errors, 0 warnings, 0 messages)

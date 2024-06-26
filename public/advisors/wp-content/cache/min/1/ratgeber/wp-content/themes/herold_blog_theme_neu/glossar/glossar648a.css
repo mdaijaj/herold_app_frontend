@@ -1,0 +1,2006 @@
+.letters-filter-inner label.disabled {
+    opacity: 30%
+}
+
+.select-glossar-categories-list {
+    display: none
+}
+
+.select-glossar-categories-list.active {
+    display: block
+}
+
+.glossar-entry a img {
+    transform: rotate(-90deg);
+    width: 10px
+}
+
+.glossar-entry a {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 15px
+}
+
+.first-view .container .title-head h1 {
+    color: #FFF;
+    width: unset;
+    margin-bottom: 35px
+}
+
+.gloassar_sticky {
+    position: fixed;
+    background-color: #fff;
+    z-index: 100000;
+    top: 118px;
+    width: 100%;
+    max-width: none;
+    padding-top: 10px
+}
+
+.glossar-filter-wrapper-inner {
+    display: flex;
+    align-items: center
+}
+
+@media all and (min-width:1024px) {
+    .first-view .container .title-head h2 {
+        font-size: 40px;
+        line-height: 38px;
+        width: unset
+    }
+}
+
+.tut-search {
+    max-width: 635px;
+    width: 100%
+}
+
+input#input_text {
+    border: unset;
+    background-color: #FFFFFF !important;
+    border-radius: var(--br-30);
+    padding-top: 23px;
+    padding-bottom: 23px;
+    height: auto !important;
+    width: 100%;
+    padding-left: 75px !important;
+    color: #777;
+    font-weight: 300;
+    max-height: 71px
+}
+
+.tut-search .ui-autocomplete-input {
+    border-radius: 50px !important
+}
+
+#search_submit {
+    left: 30px !important
+}
+
+.headline-terms {
+    font-weight: 700;
+    color: #FFF;
+    margin-top: 50px
+}
+
+.newest-term-entry a {
+    padding: 3px 10px;
+    color: #000000 !important;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0
+}
+
+.newest-term-entry {
+    background-color: #FFF4CF;
+    width: fit-content;
+    border-radius: 30px;
+    margin-bottom: 0px !important
+}
+
+.newest-terms {
+    display: flex;
+    gap: 15px;
+    max-width: 495px;
+    width: 100%;
+    flex-wrap: wrap
+}
+
+.search-submit {
+    display: none
+}
+
+@media all and (min-width:568px) {
+    .search-submit {
+        display: block;
+        position: absolute;
+        right: 10px;
+        background-color: #FEC600;
+        border-radius: 50px;
+        padding: 16.5px 15px;
+        width: 154px;
+        font-family: 'Satoshi-Black';
+        border: unset !important;
+        font-size: 20px
+    }
+}
+
+@media (min-width:1024px) {
+    .first-view .container .title-head h2 {
+        margin-bottom: 75px
+    }
+}
+
+.letters-filter-inner label {
+    text-transform: uppercase;
+    cursor: pointer
+}
+
+.letters-filter-inner label input {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+    display: none
+}
+
+.letters-filter-inner label {
+    border-radius: 30px;
+    padding: 11px 16px;
+    font-size: 20px
+}
+
+.disabled:hover {
+    background-color: transparent !important
+}
+
+.glossar-wrapper {
+    margin-top: 25px
+}
+
+label.checked-label-button {
+    display: flex;
+    align-items: center;
+    border: 1px solid #CCC;
+    border-radius: 30px;
+    padding: 15px
+}
+
+.checked-label-button p {
+    margin: 0px !important
+}
+
+.checked-label-button img {
+    width: 12px;
+    height: 12px
+}
+
+.glossar-filter-wrapper {
+    display: flex
+}
+
+.sidebar-menu.active {
+    background-color: #FFF;
+    max-width: 635px;
+    width: 100%;
+    border-radius: 0 0 50px 50px;
+    box-shadow: 0 3px 15px #00000024;
+    padding: 40px 10px 20px;
+    margin-top: -35px
+}
+
+.search-submit:hover {
+    opacity: .5
+}
+
+.newest-term-entry:hover {
+    opacity: .5
+}
+
+.search-results li {
+    border-radius: 30px;
+    padding: 6px 10px
+}
+
+.search-results li {
+    cursor: pointer
+}
+
+.sidebar-menu .search-results li:hover {
+    background-color: #FFF4CF
+}
+
+.search-results li a {
+    color: #000;
+    font-size: 16px;
+    font-family: "Inter-Regular", sans-serif;
+    font-weight: 500
+}
+
+.search-results a:hover {
+    text-decoration: none !important
+}
+
+.glossar-categories-wrapper {
+    min-width: 229px
+}
+
+.letters-filter-inner label {
+    padding: 11px 15px !important
+}
+
+form.letters-filter button {
+    display: none
+}
+
+.glossar-filter-wrapper {
+    align-items: center
+}
+
+.letters-wrapper.container {
+    width: 100%
+}
+
+label.checked-label-button {
+    padding: 15px 18px;
+    justify-content: space-between
+}
+
+.checked-label-button .glossar-cat-count {
+    margin-left: 12px;
+    border-radius: 8px;
+    padding: 5px;
+    font-size: 13px
+}
+
+.select-glossar-categories-list.active {
+    background-color: #FFF;
+    border: 1px solid #CCC;
+    border-radius: 30px;
+    max-width: 339px;
+    width: 339px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: -70px;
+    bottom: unset;
+    top: 75px;
+    isolation: isolate;
+    z-index: 1;
+    padding: 15px
+}
+
+.glossar-categories-wrapper {
+    position: relative
+}
+
+.ratgeber_glossar-template-default hr,
+.post-type-archive-ratgeber_glossar hr {
+    margin-top: 10px !important;
+    margin-bottom: 90px !important
+}
+
+.select-glossar-categories-list.active label input {
+    display: none
+}
+
+@media all and (min-width:769px) {
+    form.select-glossar-categories-list.active label:hover {
+        border-radius: 30px
+    }
+}
+
+form.select-glossar-categories-list.active label p {
+    margin-left: 15px;
+    font-weight: 500;
+    font-family: "Inter-Medium", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer
+}
+
+.select-glossar-categories-list.active button {
+    display: none
+}
+
+form.select-glossar-categories-list.active label p span {
+    border-radius: 8px;
+    padding: 0 5px;
+    font-size: 13px;
+    font-weight: 700
+}
+
+.select-glossar-categories-list.active:before {
+    content: "";
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    position: absolute;
+    top: -16px;
+    width: 21px;
+    height: 17px;
+    background-color: #FFF;
+    left: 50%;
+    transform: translateX(-50%);
+    isolation: isolate;
+    z-index: 1
+}
+
+.select-glossar-categories-list.active:after {
+    content: "";
+    position: fixed;
+    background-color: #0009;
+    z-index: -1;
+    inset: 0;
+    pointer-events: none
+}
+
+@media all and (min-width:769px) {
+    .select-glossar-categories-list.active:after {
+        content: "";
+        inset: unset;
+        clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+        position: absolute;
+        top: -18px;
+        width: 22px;
+        height: 18px;
+        background-color: #CCC;
+        left: 50%;
+        transform: translateX(-50%);
+        border: 1px solid #CCC
+    }
+}
+
+.select-glossar-categories-list.active label:first-child p span {
+    color: #000
+}
+
+.select-glossar-categories-list.active label:nth-last-of-type(1) p span {
+    color: #FFF
+}
+
+.select-glossar-categories-list.active label:nth-last-of-type(2) p span {
+    color: #FFF
+}
+
+.glossar-entries-list {
+    display: grid;
+    gap: 15px 170px;
+    grid-auto-flow: row;
+    grid-auto-rows: auto;
+    grid-template-columns: repeat(auto-fit, minmax(auto, 264px));
+    margin-bottom: 55px
+}
+
+.glossar-entries-wrapper h1 {
+    font-family: "Satoshi-Regular", sans-serif;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: 30px;
+    margin-bottom: 55px
+}
+
+.glossar-letter-title {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 30px;
+    margin-left: 20px;
+    margin-bottom: 5px
+}
+
+.glossar-entries-list .glossar-entry {
+    margin-bottom: 0px !important;
+    border-radius: 30px;
+    max-width: 264px
+}
+
+.glossar-entries-list .glossar-entry a {
+    padding: 8.5px 20px;
+    border-radius: 30px;
+    color: #000;
+    font-size: 16px;
+    font-family: "Inter-Regular", sans-serif;
+    letter-spacing: 0
+}
+
+img#form-delete,
+#form-delete-close {
+    display: none !important
+}
+
+@media all and (max-width:768px) {
+    .glossar-categories-wrapper {
+        min-width: 0 !important
+    }
+
+    .select-glossar-categories-list.active:before {
+        display: none
+    }
+
+    .first-view .container .title-head h1 {
+        line-height: 43px;
+        margin-bottom: 10px
+    }
+
+    .first-view .container .title-head h2 {
+        width: 200px;
+        margin-bottom: 30px
+    }
+
+    .tut-search input#input_text {
+        font-size: 15px;
+        border-right: 0;
+        border-left: 0
+    }
+
+    .headline-terms {
+        display: none !important
+    }
+
+    .newest-terms {
+        display: none !important
+    }
+
+    .glossar-wrapper {
+        margin-top: 0;
+        position: relative
+    }
+
+    .glossar-filter-wrapper {
+        align-items: center;
+        display: flex;
+        flex-direction: column
+    }
+
+    .glossar-categories-wrapper {
+        display: block;
+        width: 100%;
+        display: flex;
+        order: -1;
+        position: relative
+    }
+
+    label.checked-label-button {
+        padding: 15px 18px;
+        justify-content: space-between;
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        border-left: none !important;
+        border-right: none !important;
+        display: flex;
+        align-items: center;
+        border: 1px solid transparent;
+        border-radius: 0;
+        padding: 15px;
+        position: relative;
+        font-weight: 400;
+        border-top: none !important
+    }
+
+    .glossar-categories-wrapper:before {
+        content: "";
+        height: .5px;
+        background-color: #ccc;
+        position: absolute;
+        bottom: 0;
+        left: -20px;
+        width: calc(100% + 40px);
+        margin: auto
+    }
+
+    .letters-filter-inner {
+        display: flex;
+        flex-direction: column;
+        width: 40px;
+        display: inline-block;
+        display: flex;
+        margin-top: 15px
+    }
+
+    .letters-filter-inner label {
+        padding: 8.5px 14px !important;
+        font-size: 16px;
+        font-family: "Inter-Medium", sans-serif;
+        font-weight: 400
+    }
+
+    .glossar-entries-wrapper.container {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        justify-content: right;
+        margin: 0;
+        margin-right: 0;
+        margin-left: 10px;
+        position: absolute;
+        top: 80px;
+        right: 0
+    }
+
+    .glossar-entries-wrapper h1 {
+        font-family: "Satoshi-Medium", sans-serif;
+        font-size: 40px;
+        letter-spacing: 0;
+        line-height: 30px;
+        margin-bottom: 55px;
+        display: none
+    }
+
+    .glossar-letter-title {
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 20px;
+        letter-spacing: 0;
+        line-height: 30px;
+        margin-left: 20px;
+        margin-bottom: 5px;
+        font-weight: 400
+    }
+
+    .glossar-cat-count {
+        font-weight: 700
+    }
+
+    .select-glossar-categories-list.active {
+        z-index: 1;
+        padding: 15px;
+        border-left: none !important;
+        border-right: none !important;
+        border-top: none !important;
+        border-radius: 0px !important;
+        position: fixed;
+        top: 69px;
+        right: 0;
+        left: 0;
+        padding-left: 0px !important;
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+        border-bottom: none !important;
+        box-shadow: 0 3px 15px #00000024;
+        max-width: 100% !important;
+        width: 100%;
+        padding-right: 0px !important
+    }
+
+    form.select-glossar-categories-list.active label p {
+        margin-left: 15px;
+        font-weight: 500;
+        font-family: "Inter-Medium", sans-serif;
+        display: flex;
+        justify-content: space-between;
+        margin-right: 20px;
+        align-items: center;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        margin-left: 45px
+    }
+
+    .select-glossar-categories-list.active label {
+        display: inline-block;
+        max-width: 100%;
+        margin-bottom: 5px;
+        font-weight: 700;
+        margin-bottom: 0;
+        border-top: 1px solid #DEDEDE;
+        border-bottom: none !important;
+        background-color: #FFF
+    }
+
+    .dark {
+        overflow-y: hidden
+    }
+}
+
+.select-glossar-categories-list.active {
+    right: 0
+}
+
+@media all and (min-width:1700px) {
+    .select-glossar-categories-list.active {
+        right: -70px
+    }
+}
+
+.single-ratgeber_glossar main {
+    margin-top: 117px !important
+}
+
+.glossar-single-inner h1 {
+    font-weight: 400;
+    font-family: Satoshi-Regular
+}
+
+.glossar-breadcrumb-wrapper {
+    background-color: #FFF4CF;
+    padding: 6.5px 0
+}
+
+.glossar-breadcrumb-wrapper .breadcrumbs {
+    font-size: 13px
+}
+
+.glossar-single-inner .left .section_heading {
+    font-family: "Satoshi-Regular", sans-serif;
+    font-weight: 30 !important;
+    margin-bottom: 50px
+}
+
+@media all and (min-width:1025px) {
+    .glossar-single-inner .left .section_heading {
+        font-size: 50px !important
+    }
+}
+
+.glossar-single-inner .left p {
+    font-size: 18px;
+    line-height: 25px;
+    margin: 20px 0
+}
+
+.glossar-single-inner .left ul {
+    list-style: disc;
+    list-style-position: inside;
+    margin-top: 18px;
+    margin-bottom: 45px
+}
+
+.glossar-single-inner .left ul li {
+    list-style: disc;
+    list-style-position: inside
+}
+
+.glossar-single-inner .left img {
+    width: 100%;
+    margin-top: 40px;
+    box-shadow: 0 3px 6px #00000029;
+    height: auto
+}
+
+.glossar-single-inner .left figcaption {
+    font-size: 14px;
+    font-family: "Inter-Regular", sans-serif;
+    text-align: center;
+    margin-top: 16px
+}
+
+.glossar-single-inner .left ol li {
+    list-style: none;
+    position: relative;
+    margin-bottom: 25px;
+    display: flex;
+    align-items: flex-start;
+    font-size: 16px
+}
+
+.glossar-single-inner ol li {
+    font-size: 16px
+}
+
+.glossar-single-inner .left ol li::marker {
+    background-color: #FEC613;
+    padding: 5px;
+    color: #000;
+    list-style-position: inside;
+    font-weight: 700
+}
+
+.entry-content ol {
+    margin-left: 0;
+    padding-left: 0
+}
+
+em {
+    background-color: #FEC613;
+    padding: 0 5px 0 7px;
+    height: 25px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    font-style: inherit
+}
+
+.glossar-single-inner .left ol li span {
+    margin-left: 15px;
+    display: flex;
+    font-size: 16px;
+    font-weight: 400
+}
+
+.glossar-single-inner .right p {
+    font-size: 25px;
+    font-family: "Satoshi-Regular", sans-serif;
+    margin-bottom: 25px
+}
+
+.sh_inner img {
+    border-radius: 30px;
+    width: 100%;
+    height: auto
+}
+
+body .sh_inner img {
+    margin: 0
+}
+
+.sh_inner a {
+    text-align: center;
+    display: block
+}
+
+.shadow_inner .glossar-start-post-title {
+    font-size: 20px !important;
+    font-family: "Inter-Bold", sans-serif !important;
+    font-weight: 700
+}
+
+.shadow-glossar-start-post {
+    box-shadow: 0 3px 15px #0000001A;
+    border-radius: 30px;
+    max-width: 335px
+}
+
+.shadow_inner {
+    margin-top: 25px;
+    padding-bottom: 30px
+}
+
+.shadow_inner .cta_btn.blue {
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 30px;
+    padding: 9px 43px;
+    width: fit-content;
+    margin: 30px auto 0
+}
+
+@media all and (min-width:1024px) {
+    .shadow-glossar-start-post {
+        max-width: 300px
+    }
+}
+
+.other {
+    margin-top: 60px;
+    line-height: 30px
+}
+
+.glossar-more-posts .glossar-entry {
+    margin-bottom: 0px !important;
+    border-radius: 30px;
+    background-color: #F4F2F9;
+    max-width: 335px;
+    margin-bottom: 10px !important
+}
+
+.glossar-more-posts .glossar-entry a {
+    padding: 11px 20px;
+    border-radius: 30px;
+    color: #000;
+    font-size: 16px;
+    font-family: "Inter-Regular", sans-serif;
+    letter-spacing: 0;
+    display: flex;
+    justify-content: space-between
+}
+
+.glossar-more-posts {
+    margin-bottom: 60px
+}
+
+.single-ratgeber_glossar main {
+    margin-top: 69px !important
+}
+
+.left {
+    margin-top: 25px;
+    margin-bottom: 75px
+}
+
+.glossar-single-inner .left .section_heading {
+    font-size: 35px;
+    margin-bottom: 25px
+}
+
+figure {
+    margin-bottom: 35px
+}
+
+.glossar-single-inner .left p {
+    font-size: 16px
+}
+
+@media all and (min-width:1024px) {
+    .right {
+        width: 300px;
+        position: sticky;
+        top: 131px;
+        right: 20px;
+        align-self: flex-start;
+        margin-top: 25px
+    }
+
+    .container.glossar-single-inner {
+        display: flex;
+        gap: 100px;
+        position: relative;
+        justify-content: space-between;
+        margin-bottom: 160px
+    }
+
+    .left {
+        width: 60%;
+        margin-bottom: 0
+    }
+
+    .glossar-single-inner:before {
+        display: none
+    }
+
+    .container.glossar-single-inner {
+        margin-top: 40px
+    }
+
+    .glossar-single-inner .left .section_heading {
+        margin-bottom: 45px
+    }
+
+    .glossar-single-inner .left p {
+        font-size: 18px
+    }
+
+    .glossar-single-inner:after {
+        display: none
+    }
+
+    .glossar-more-posts {
+        margin-bottom: 0
+    }
+
+    .glossar-single-inner .right p {
+        font-size: 22px
+    }
+
+    .glossar-single-inner .left ol li span {
+        font-size: 18px
+    }
+}
+
+@media all and (min-width:1440px) {
+    .left {
+        width: 902px
+    }
+}
+
+.cta_btn.blue {
+    transition: 0.3s ease-in-out;
+    text-transform: uppercase
+}
+
+.cta_btn.blue:hover {
+    color: #fff;
+    background-color: #000
+}
+
+.glossar-entries-list .glossar-entry a.inactive,
+.letters-filter-inner label.inactive {
+    pointer-events: none
+}
+
+.letters-filter-inner label.active {
+    background-color: #FEC613
+}
+
+@media all and (max-width:768px) {
+    .newest-terms {
+        display: none
+    }
+}
+
+.post.post-ratgeber_glossar.current-item {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden
+}
+
+@media all and (max-width:374px) {
+    #search_submit {
+        height: 20px !important;
+        left: 15px !important
+    }
+
+    .tut-search input#input_text {
+        font-size: 14px;
+        padding-left: 41px !important
+    }
+}
+
+@media all and (min-width:568px) and (max-width:1023px) {
+    .search-submit {
+        padding: 12.5px 15px
+    }
+}
+
+.entry-content ul li {
+    font-size: 16px
+}
+
+@media all and (max-width:768px) {
+    .letters-filter-inner {
+        height: calc(100vh - 355px);
+        overflow: scroll
+    }
+
+    form.letters-filter {
+        height: calc(100vh - 333px)
+    }
+
+    input#input_text {
+        padding-top: 12.5px;
+        padding-bottom: 12.5px;
+        height: 55px !important
+    }
+
+    .glossar-categories-wrapper {
+        width: 100%
+    }
+}
+
+ol li {
+    font-size: 16px
+}
+
+@media all and (min-width:1024px) {
+    ol li {
+        font-size: 16px
+    }
+}
+
+.search-results .glossar-entries-wrapper {
+    margin: 0 auto;
+    position: unset
+}
+
+.search-results li a {
+    font-weight: 700
+}
+
+.sidebar-menu.active {
+    border-radius: 10px 10px 50px 50px
+}
+
+.ui-autocomplete-loading.active {
+    border-radius: 30px 30px 0 0px !important
+}
+
+.ui-autocomplete-input.active {
+    border-radius: 30px 30px 0 0px !important
+}
+
+.ac-search-field.jsAutocompleteHighligh.ui-autocomplete-input.active.ui-autocomplete-loading {
+    border-radius: 30px 30px 0 0px !important
+}
+
+img.search_result_img {
+    margin-right: 15px;
+    width: 23px;
+    height: 23px
+}
+
+#search_submit {
+    height: 22px !important;
+    left: 15px !important
+}
+
+.tut-search #search_sbmit {
+    height: 20px !important
+}
+
+@media all and (min-width:1024px) {
+    #search_submit {
+        height: 25px !important;
+        left: 30px !important
+    }
+}
+
+@media all and (min-width:991px) {
+    .letters-filter-inner label {
+        padding: 7px 12px !important;
+        font-size: 18px
+    }
+
+    .glossar-filter-wrapper {
+        flex-wrap: wrap
+    }
+
+    .glossar-filter-wrapper {
+        justify-content: right
+    }
+
+    .select-glossar-categories-list.active {
+        left: 50%;
+        transform: translateX(-50%)
+    }
+
+    .glossar-categories-wrapper {
+        margin-right: 60px
+    }
+}
+
+@media all and (min-width:1024px) {
+    .letters-filter-inner label {
+        font-size: 19px
+    }
+}
+
+@media all and (min-width:1280px) {
+    .letters-filter-inner label {
+        font-size: 20px;
+        padding: 11px 15px 11px 15px !important
+    }
+}
+
+@media all and (min-width:1440px) {
+    .glossar-filter-wrapper {
+        flex-wrap: unset
+    }
+}
+
+.letters-filter-inner {
+    position: relative
+}
+
+.letters-filter-inner:hover.letters-filter-inner:before {
+    display: none
+}
+
+.shadow_inner a:hover {
+    transition: none
+}
+
+.shadow_inner a {
+    transition: none
+}
+
+.shadow_inner .cta_btn.blue {
+    transition: none
+}
+
+.glossar-single-inner .left ol li {
+    font-size: 16px
+}
+
+.glossar-single-inner h2 {
+    font-family: "Satoshi-Regular", sans-serif;
+    font-weight: 400
+}
+
+@media all and (min-width:991px) {
+    .checked-label-button p {
+        margin: 0px !important;
+        text-overflow: ellipsis;
+        width: 100px;
+        white-space: nowrap;
+        overflow: hidden
+    }
+}
+
+@media all and (min-width:991px) {
+    .checked-label-button .glossar-cat-count {
+        position: absolute;
+        top: 14px;
+        height: 27px;
+        right: 50px;
+        position: absolute;
+        top: 15px;
+        height: 25px;
+        right: 50px;
+        color: #FFF;
+        display: flex;
+        justify-content: center;
+        align-items: center
+    }
+}
+
+@media all and (max-width:990px) {
+    .tut-search.itsnew {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-color: #fff;
+        z-index: 1
+    }
+
+    .ui-autocomplete-input.new {
+        position: absolute;
+        width: 100%;
+        left: 0;
+        right: 0;
+        top: 70px;
+        border-radius: 0px !important
+    }
+
+    .tut-search.itsnew #search_submit {
+        top: 80px
+    }
+
+    .tut-search-itsnew .ui-autocomplete-input::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 10px;
+        left: 10px;
+        background-image: url(../../../../../../../../themes/herold_blog_theme_neu/img/back.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center
+    }
+
+    .search-results li {
+        padding: 0 10px 0 20px
+    }
+
+    .glossar-suche .search-results {
+        margin-top: 0
+    }
+
+    .glossar-suche .search-results li:first-child {
+        margin-top: 5px
+    }
+
+    img#form-delete {
+        display: block !important;
+        position: absolute;
+        left: 20px;
+        top: 80px;
+        right: 0;
+        width: 34px;
+        height: 34px;
+        padding: 7px;
+        opacity: 1;
+        border-radius: 50%;
+        cursor: pointer;
+        z-index: 10000
+    }
+
+    #form-delete-close {
+        display: block !important;
+        position: absolute;
+        right: 20px;
+        top: 89px;
+        width: 17px;
+        height: 17px;
+        z-index: 10000
+    }
+
+    .ui-autocomplete-input.new::placeholder {
+        color: #fff;
+        display: none
+    }
+
+    .tut-search input#input_text.new {
+        padding-left: 60px !important
+    }
+
+    .tut-search {
+        max-width: unset;
+        width: 100%
+    }
+
+    .here {
+        display: none
+    }
+}
+
+@media all and (min-width:991px) {
+    .glossar-entries-outer .letters-wrapper {
+        display: none
+    }
+}
+
+@media all and (max-width:990px) {
+    .glossar-filter-wrapper .letters-wrapper {
+        display: none
+    }
+}
+
+@media all and (max-width:990px) {
+
+    .ratgeber_glossar-template-default hr,
+    .post-type-archive-ratgeber_glossar hr {
+        margin-top: -25px !important;
+        margin-bottom: 20px !important;
+        border-top: 1px solid #fff
+    }
+
+    .glossar-entries-outer {
+        display: flex;
+        align-items: flex-start
+    }
+
+    .letters-wrapper.container {
+        width: 40px
+    }
+
+    form.letters-filter {
+        height: calc(100vh - 333px)
+    }
+
+    .glossar-entries-wrapper.container {
+        position: unset
+    }
+
+    label.checked-label-button {
+        padding-right: 0;
+        padding-left: 0
+    }
+
+    .letters-wrapper {
+        margin-left: 0;
+        position: sticky;
+        top: 75px
+    }
+
+    .letters-filter-inner {
+        height: calc(100vh - 450px)
+    }
+}
+
+@media all and (min-width:1440px) {
+    .glossar-categories-wrapper {
+        margin-right: 75px
+    }
+}
+
+@media all and (min-width:1600px) {
+    .glossar-categories-wrapper {
+        margin-right: 0
+    }
+}
+
+@media all and (max-width:990px) {
+    .super {
+        position: absolute;
+        left: 0;
+        top: 167px;
+        box-shadow: unset !important;
+        z-index: 1000;
+        padding-top: 0px !important
+    }
+}
+
+.shadow_inner {
+    padding-left: 20px;
+    padding-right: 20px
+}
+
+@media all and (min-width:1440px) {
+    .shadow-glossar-start-post {
+        width: 300px
+    }
+}
+
+.shadow-glossar-start-post {
+    margin-bottom: 55px
+}
+
+@media all and (max-width:1600px) {
+    .letters-filter-inner label {
+        font-size: 16px;
+        padding: 6px 10px 6px 10px !important
+    }
+}
+
+@media all and (max-width:1229px) {
+    .gloassar_sticky {
+        top: 75px
+    }
+}
+
+@media all and (max-width:1210px) {
+    .glossar-categories-wrapper {
+        display: none !important
+    }
+}
+
+@media all and (max-width:991px) {
+    .glossar-categories-wrapper {
+        display: block !important
+    }
+
+    .glossar-categories-wrapper label.checked-label-button {
+        margin-bottom: 0
+    }
+}
+
+@media all and (max-width:767PX) {
+    .gloassar_sticky {
+        position: static
+    }
+
+    .glossar-filter-wrapper .container {
+        width: 100%
+    }
+
+    .letters-filter-inner label {
+        padding: 8.5px 14px !important
+    }
+
+    .glossar-categories-wrapper .glossar-cat-count {
+        color: #fff
+    }
+}
+
+@media all and (min-width:1025px) {
+    .single-ratgeber_glossar .glossar-single-inner .left h1 {
+        font-size: 50px !important
+    }
+}
+
+.shadow-glossar-start-post .sh_inner a img {
+    margin-bottom: 12px;
+    height: 172px
+}
+
+.post-type-archive-ratgeber_glossar .heroldblog_single_title {
+    padding: 0 20px;
+    max-width: 1455px;
+    margin: 0 auto;
+    margin-top: 150px
+}
+
+@media (min-width:1280px) {
+    .post-type-archive-ratgeber_glossar .letters-filter-inner:before {
+        content: "";
+        background: transparent linear-gradient(90deg, #FFFFFF00 0%, #FFFFFF 100%) 0% 0% no-repeat padding-box;
+        position: absolute;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        width: 300px;
+        z-index: 2
+    }
+}
+
+@media (min-width:1230px) {
+    .single-ratgeber_glossar main {
+        margin-top: 117px !important
+    }
+}
+
+.post-type-archive-ratgeber_glossar .letters-wrapper {
+    padding-left: 25px
+}
+
+.glossar-filter-wrapper {
+    z-index: 1
+}
+
+.shadow_inner .cta_btn.blue {
+    padding: 9px 26px
+}
+
+.shadow_inner {
+    padding-left: 35px;
+    padding-right: 35px
+}
+
+@media (max-width:1023px) {
+    .glossar-filter-wrapper .container {
+        width: 100%
+    }
+}
+
+@media all and (min-width:768px) and (max-width:990px) {
+    .letters-filter-inner label {
+        padding: 8.5px 14px !important
+    }
+}
+
+@media all and (min-width:991px) {
+    .post-type-archive-ratgeber_glossar .letters-wrapper {
+        padding-left: 0;
+        width: 100%;
+        margin-bottom: 20px
+    }
+
+    .glossar-filter-wrapper-inner {
+        flex-wrap: wrap
+    }
+
+    .ratgeber_glossar-template-default hr,
+    .post-type-archive-ratgeber_glossar hr {
+        margin-top: 25px !important
+    }
+}
+
+@media all and (min-width:1024px) {
+    .glossar-filter-wrapper .container {
+        padding: 0 20px;
+        max-width: unset;
+        margin: 0
+    }
+
+    .glossar-categories-wrapper {
+        display: block !important
+    }
+}
+
+@media all and (min-width:1280px) {
+    .glossar-filter-wrapper {
+        justify-content: unset
+    }
+
+    .glossar-filter-wrapper .container {
+        padding: 0;
+        max-width: unset;
+        margin: 0;
+        padding-left: 20px
+    }
+
+    .glossar-filter-wrapper-inner {
+        flex-wrap: nowrap
+    }
+
+    .post-type-archive-ratgeber_glossar .letters-wrapper {
+        margin-bottom: 0
+    }
+}
+
+@media all and (min-width:1440px) {
+    .glossar-filter-wrapper {
+        padding: 0 20px;
+        max-width: 1460px;
+        padding-left: 20px;
+        padding-right: 0;
+        margin: 0 auto;
+        padding-top: 25px
+    }
+
+    .glossar-filter-wrapper .container {
+        padding: 0;
+        max-width: unset;
+        margin: 0
+    }
+
+    .glossar-wrapper {
+        margin-top: 0
+    }
+
+    .glossar-filter-wrapper.gloassar_sticky {
+        justify-content: end;
+        max-width: unset
+    }
+}
+
+.single-ratgeber_glossar .left a {
+    color: #000;
+    font-weight: 700;
+    text-decoration: underline
+}
+
+.post.post-ratgeber_glossar.current-item {
+    font-weight: 700
+}
+
+.glossar-entries-wrapper.container {
+    margin-top: 35px
+}
+
+@media all and (min-width:568px) and (max-width:1023px) {
+    .glossar-suche .search-submit {
+        padding: 9px 15px
+    }
+}
+
+.letters-wrapper.letters-resize .letters-filter {
+    height: unset
+}
+
+.letters-wrapper.letters-resize .letters-filter .letters-filter-inner {
+    height: calc(100vh - 135px)
+}
+
+.glossar-entries-list:last-of-type {
+    margin-bottom: 0
+}
+
+.glossar-entries-outer {
+    margin-bottom: 55px
+}
+
+.glossar-suche .search-results li {
+    padding: 6px 10px 6px 22px
+}
+
+@media all and (min-width:1280px) {
+    .glossar-filter-wrapper .container {
+        padding: 0 20px;
+        max-width: 1455px;
+        margin: 0 auto
+    }
+}
+
+.glossar-suche input#input_text:focus {
+    color: #000
+}
+
+.glossar-suche input[value^="SUCHEN"] {
+    color: #000
+}
+
+.glossar-suche .search-submit:hover {
+    background-color: #ffe49b;
+    opacity: 1
+}
+
+@media all and (min-width:991px) {
+    .glossar-suche {
+        position: relative
+    }
+
+    .glossar-suche .sidebar-menu {
+        padding: 0 10px 20px;
+        box-shadow: 1px 13px 15px #00000024;
+        margin-top: -35px;
+        position: absolute;
+        top: 106px;
+        z-index: 1;
+        border-radius: 0 0 50px 50px !important
+    }
+
+    .glossar-suche .sidebar-menu .search-results {
+        margin-top: 0
+    }
+
+    .letters-filter-inner label {
+        font-size: 20px;
+        padding: 0px !important;
+        width: 35px;
+        height: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row
+    }
+
+    .letters-filter-inner {
+        display: flex
+    }
+
+    .glossar-filter-wrapper.gloassar_sticky {
+        border-bottom: 1px solid #eee;
+        padding-bottom: 15px
+    }
+}
+
+.glossar-suche li.newest-term-entry:hover {
+    background-color: #FEC613;
+    opacity: 1
+}
+
+@media all and (min-width:1024px) {
+    .letters-filter-inner label {
+        width: 38px;
+        height: 38px
+    }
+}
+
+@media all and (min-width:1280px) {
+    .letters-filter-inner label {
+        width: 38px;
+        height: 38px
+    }
+}
+
+@media all and (min-width:1460px) {
+    .letters-filter-inner label {
+        width: 45px;
+        height: 45px
+    }
+}
+
+.checked-label-button .glossar-cat-count {
+    width: 35px
+}
+
+form.select-glossar-categories-list.active label p span {
+    width: 35px;
+    justify-content: center;
+    display: flex
+}
+
+@media all and (min-width:1024px) {
+    .shadow_inner .glossar-start-post-title {
+        font-size: 17px !important;
+        letter-spacing: 0;
+        line-height: 24px
+    }
+}
+
+.shadow_inner .cta_btn.blue {
+    font-family: "Satoshi-Black", sans-serif;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 28px;
+    font-weight: 700;
+    padding: 7px 35px
+}
+
+@media (max-width:768px) {
+    .glossar-letter-title {
+        text-transform: uppercase;
+        font-weight: 700;
+        letter-spacing: 0;
+        line-height: 30px;
+        margin-left: 20px;
+        margin-bottom: 5px;
+        font-weight: 400;
+        font-family: "Satoshi-Medium", sans-serif;
+        font-size: 20px
+    }
+}
+
+@media all and (max-width:990px) {
+    .letters-filter-inner label {
+        font-family: "Inter-Medium", sans-serif
+    }
+}
+
+@media all and (min-width:991px) {
+    .letters-filter-inner label {
+        font-family: "Inter-SemiBold", sans-serif
+    }
+}
+
+.checked-label-button .glossar-cat-count {
+    line-height: 19px;
+    height: 19px;
+    top: 17px
+}
+
+.glossar-categories-wrapper label.checked-label-button {
+    align-items: center
+}
+
+@media all and (min-width:991px) {
+    .post-type-archive-ratgeber_glossar .letters-wrapper {
+        margin-bottom: 0
+    }
+}
+
+@media all and (min-width:991px) and (max-width:1279px) {
+    .glossar-categories-wrapper {
+        display: none !important
+    }
+}
+
+@media all and (min-width:955px) {
+    .glossar-filter-wrapper {
+        justify-content: right;
+        flex-wrap: wrap
+    }
+
+    .glossar-filter-wrapper-inner {
+        flex-wrap: wrap
+    }
+
+    .post-type-archive-ratgeber_glossar .letters-wrapper {
+        margin-bottom: 0
+    }
+
+    .post-type-archive-ratgeber_glossar .letters-wrapper {
+        padding-left: 0;
+        width: 100%
+    }
+
+    .letters-filter-inner {
+        display: flex;
+        height: unset
+    }
+
+    form.letters-filter {
+        height: unset
+    }
+
+    .letters-filter-inner label {
+        font-family: "Inter-SemiBold", sans-serif
+    }
+
+    .letters-filter-inner label {
+        font-size: 20px;
+        padding: 0px !important;
+        width: 35px;
+        height: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row
+    }
+
+    .glossar-categories-wrapper {
+        margin-right: 60px
+    }
+
+    .glossar-categories-wrapper label.checked-label-button {
+        margin-bottom: 0
+    }
+
+    .checked-label-button p {
+        margin: 0px !important;
+        text-overflow: ellipsis;
+        width: 100px;
+        white-space: nowrap;
+        overflow: hidden
+    }
+
+    .checked-label-button .glossar-cat-count {
+        position: absolute;
+        right: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center
+    }
+
+    .post-type-archive-ratgeber_glossar hr {
+        margin-top: 25px !important
+    }
+
+    .post-type-archive-ratgeber_glossar .letters-wrapper {
+        margin-bottom: 0
+    }
+
+    .post-type-archive-ratgeber_glossar .letters-wrapper {
+        padding-left: 0;
+        width: 100%;
+        display: flex
+    }
+
+    .glossar-entries-outer .letters-wrapper {
+        display: none
+    }
+
+    .letters-filter-inner {
+        display: flex
+    }
+
+    .letters-filter-inner label {
+        font-family: "Inter-SemiBold", sans-serif
+    }
+
+    .letters-filter-inner label {
+        font-size: 20px;
+        padding: 0px !important;
+        width: 35px;
+        height: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row
+    }
+
+    .glossar-entries-wrapper.container {
+        margin: 0
+    }
+}
+
+@media all and (min-width:955px) and (max-width:1279px) {
+    .glossar-categories-wrapper {
+        display: none !important
+    }
+}
+
+@media (min-width:1024px) {
+    .glossar-filter-wrapper .container {
+        padding: 0 20px;
+        max-width: 1455px;
+        margin: 0 auto
+    }
+}
+
+@media (min-width:1280px) {
+    .glossar-filter-wrapper-inner {
+        flex-wrap: nowrap
+    }
+}
+
+@media (min-width:1025px) {
+    .single-ratgeber_glossar .glossar-single-inner .left h1 {
+        margin-top: 50px
+    }
+}
+
+@media (min-width:1440px) {
+    .glossar-entries-wrapper.container {
+        margin: 0 auto
+    }
+
+    .glossar-filter-wrapper {
+        justify-content: unset
+    }
+
+    .glossar-filter-wrapper .container {
+        padding: 0;
+        max-width: unset;
+        margin: 0
+    }
+
+    .letters-filter-inner label {
+        width: 45px;
+        height: 45px
+    }
+
+    .glossar-filter-wrapper.gloassar_sticky .container {
+        padding: 0;
+        max-width: unset;
+        margin: 0 auto;
+        padding-left: 20px
+    }
+
+    .glossar-filter-wrapper.gloassar_sticky .container {
+        margin-left: 0;
+        padding-left: 0
+    }
+
+    .glossar-categories-wrapper {
+        margin-right: 0
+    }
+}
+
+@media all and (max-width:768px) {
+    .checked-label-button .glossar-cat-count {
+        display: flex;
+        align-items: center;
+        justify-content: center
+    }
+
+    .checked-label-button p {
+        display: flex
+    }
+}
+
+.glossar-single-inner .right p {
+    font-size: 25px;
+    line-height: 25px
+}
+
+@media all and (min-width:1024px) {
+    .right p:nth-of-type(2) {
+        font-size: 22px
+    }
+}
+
+@media all and (min-width:1440px) {
+    .glossar-filter-wrapper.glossar-filter-desktop.gloassar_sticky {
+        max-width: unset
+    }
+
+    .glossar-filter-wrapper.gloassar_sticky .container {
+        margin-left: 0;
+        padding-left: 0;
+        margin: 0 auto;
+        padding: 0 20px
+    }
+}
+
+@media all and (min-width:1445px) {
+    .glossar-filter-wrapper.gloassar_sticky .container {
+        padding: 0 40px 0 0
+    }
+}
+
+@media all and (min-width:1024px) {
+    .glossar-entries-wrapper .glossar-letter-title {
+        font-family: "Inter-SemiBold", sans-serif
+    }
+}
+
+.letters-filter-inner label {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center
+}
+
+@media all and (min-width:955px) and (max-width:991px) {
+    .letters-filter-inner label {
+        width: 35px;
+        height: 35px
+    }
+}
+
+@media all and (min-width:1024px) {
+    .letters-filter-inner label {
+        width: 38px;
+        height: 38px
+    }
+}
+
+@media all and (min-width:1280px) {
+    .glossar-categories-wrapper {
+        margin-right: 0
+    }
+}
+
+@media all and (min-width:1440px) {
+    .letters-filter-inner label {
+        width: 45px;
+        height: 45px
+    }
+}
+
+@media all and (min-width:769px) and (max-width:954px) {
+    label.checked-label-button {
+        padding-left: 20px;
+        padding-right: 20px
+    }
+
+    .letters-wrapper {
+        margin-top: 35px
+    }
+}
+
+@media all and (min-width:991px) {
+    .letters-filter-inner label {
+        margin-bottom: 0
+    }
+
+    .glossar-filter-wrapper.glossar-filter-desktop.gloassar_sticky {
+        padding-top: 16px;
+        padding-bottom: 14px
+    }
+}
+
+@media all and (min-width:1024px) {
+    .glossar-filter-wrapper.glossar-filter-desktop.gloassar_sticky {
+        padding-top: 16px;
+        padding-bottom: 14px
+    }
+}
+
+@media all and (min-width:1280px) {
+    .glossar-filter-wrapper.glossar-filter-desktop.gloassar_sticky {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        top: 118px
+    }
+}
+
+@media all and (min-width:769px) and (max-width:954px) {
+    .glossar-filter-wrapper-inner {
+        margin-left: 50px
+    }
+
+    .select-glossar-categories-list.active {
+        left: 50%;
+        transform: translateX(-50%)
+    }
+
+    .letters-filter-inner {
+        overflow: scroll
+    }
+}
+
+@media all and (min-width:1440px) {
+    .first-view {
+        margin-top: 117px
+    }
+}
+
+.yellow-list-item span {
+    display: block !important
+}

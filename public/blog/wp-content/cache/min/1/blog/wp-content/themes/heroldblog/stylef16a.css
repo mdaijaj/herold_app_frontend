@@ -1,0 +1,146 @@
+body {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    margin: 0;
+    padding: 0
+}
+
+a {
+    text-decoration: none
+}
+
+a:focus,
+a:hover,
+a:active {
+    outline: none
+}
+
+img {
+    height: auto;
+    max-width: 100%
+}
+
+svg:not(:root) {
+    overflow: hidden
+}
+
+ul,
+li {
+    list-style: none;
+    padding: 0;
+    margin: 0
+}
+
+.entry-content ul.wp-block-gallery {
+    margin: 0 auto
+}
+
+ul.flex_wrapper.wp-block-list,
+ol.flex_wrapper.wp-block-list {
+    padding: 0 0 0 35px;
+    margin: 0 auto
+}
+
+ul.wp-block-list li {
+    list-style-type: disc
+}
+
+ol.wp-block-list li {
+    list-style-type: decimal
+}
+
+hr {
+    width: 100%;
+    display: block;
+    border-top: 1px solid
+}
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer
+}
+
+button[disabled],
+html input[disabled] {
+    cursor: not-allowed
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%
+}
+
+abbr,
+acronym {
+    cursor: help
+}
+
+pre {
+    background: #eee;
+    padding: 15px
+}
+
+.wp-block-separator {
+    margin: 40px 0 10px
+}
+
+.wp-block-gallery:not(.components-placeholder) {
+    padding: 0
+}
+
+dt {
+    font-weight: 700
+}
+
+dd {
+    margin: 0 1.5em 1.5em
+}
+
+.flex_wrapper.alignright {
+    margin: 15px 0 15px auto
+}
+
+.flex_wrapper.alignleft {
+    margin: 15px auto 15px 0
+}
+
+.flex_wrapper.alignfull {
+    max-width: 100%
+}
+
+.screen-reader-text {
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    word-wrap: normal !important
+}
+
+.screen-reader-text:focus {
+    background-color: #f1f1f1;
+    border-radius: 3px;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, .6);
+    clip: auto !important;
+    color: #21759b;
+    display: block;
+    font-size: 14px;
+    font-size: .875rem;
+    font-weight: 700;
+    height: auto;
+    left: 5px;
+    line-height: normal;
+    padding: 15px 23px 14px;
+    text-decoration: none;
+    top: 5px;
+    width: auto;
+    z-index: 100000
+}
+
+#primary[tabindex="-1"]:focus {
+    outline: 0
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="18px" viewBox="0 0 24 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icons/check</title>
+    <defs>
+        <path d="M7.83032922,18.9349744 L0.337611332,11.7627948 C-0.112537111,11.3319037 -0.112537111,10.6332627 0.337611332,10.2023285 L1.96777279,8.6418622 C2.41792123,8.210928 3.14783082,8.210928 3.59797927,8.6418622 L8.64543246,13.4733424 L19.4565148,3.12480098 C19.9066633,2.69390988 20.6365729,2.69390988 21.0867213,3.12480098 L22.7168827,4.68526727 C23.1670312,5.11615837 23.1670312,5.81479935 22.7168827,6.24573355 L9.46053571,18.9350175 C9.01034224,19.3659086 8.28047767,19.3659086 7.83032922,18.9349744 L7.83032922,18.9349744 Z" id="path-1"></path>
+    </defs>
+    <g id="PROTOTYP" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons/check" transform="translate(0.000000, -2.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Mask" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+            <g id="Group" mask="url(#mask-2)" fill="#2E2D2D">
+                <g id="Farbe">
+                    <rect x="0" y="0" width="22.9832217" height="22"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

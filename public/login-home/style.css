@@ -1,0 +1,27 @@
+#info {
+    padding: 1rem 0;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #bec1c2;
+}
+
+#info h2 {
+    display: inline;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+#info img {
+    max-height: 50px;
+}
+
+.glyphicon {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: "Glyphicons Halflings";
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}

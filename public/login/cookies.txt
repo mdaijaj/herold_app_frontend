@@ -1,0 +1,5 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.herold.at	TRUE	/	FALSE	1999999999	JSESSIONID	6A08C3874CCCFA32B99A36FAB2EA2AB0.huz_pwa03.odc.hbd
+login.herold.at	TRUE	/	FALSE	1999999999	JSESSIONID	6360268ACFA8D0BF07AADF59213AC7EE.hui_pwa01.odc.hbd
+

@@ -1,0 +1,15 @@
+.product-container {
+    padding: 25px;
+    margin: 25px;
+    border-radius: 10px; /* Adjust as needed */
+    border: 1px solid #ddd; /* Optional: add a border to highlight the border-radius */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: add a shadow for better visual separation */
+    background-color: #f9f9f9; /* Optional: add a background color */
+}
+
+.product-image {
+    display: block;
+    margin: auto;
+    height: 50%;
+    width: 50%;
+}

@@ -1,0 +1,123 @@
+@import "loginvariables";
+
+footer {
+    background: $HEROLD-text;
+    padding-top: 2rem;
+    border-top: 8px solid $HEROLD-yellow;
+    color: $HEROLD-white;
+    font-size: 0.925rem;
+
+    .fadeBG {
+        padding: 10px;
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 66%, rgba(0, 0, 0, 0) 100%);
+    }
+
+    a {
+        color: $HEROLD-white;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+        display: block;
+    }
+
+    a:hover {
+        color: $HEROLD-white !important;
+    }
+
+    .links {
+        width: 50%;
+        margin-bottom: 2rem;
+        padding: 0 10px;
+
+        &:nth-child(2),
+        &:nth-child(4) {
+            padding-left: 10px;
+            border-left: 1px solid $HEROLD-border;
+        }
+
+        @media #{$media-breakpoint-up-sm} {
+            padding: 0;
+        }
+
+        @media #{$media-breakpoint-md} {
+            &:nth-child(4) {
+                padding-left: 0;
+                border-left: 0;
+            }
+        }
+
+        @media #{$media-breakpoint-up-md} {
+            width: 33%;
+
+            &:nth-child(3),
+            &:nth-child(5) {
+                padding-left: 10px;
+                border-left: 1px solid $HEROLD-border;
+            }
+        }
+
+        @media #{$media-breakpoint-up-lg} {
+            width: 20%;
+        }
+    }
+
+    ul {
+        display: block;
+
+        &.list-unstyled {
+            line-height: 1.75rem;
+            margin-bottom: 0;
+        }
+    }
+
+    #socials {
+        margin: 0 auto 2rem auto;
+
+        li {
+            display: inline-block;
+
+            &:not(:first-child) {
+                padding-left: 10px;
+            }
+        }
+
+        a {
+            font-size: 2.4rem;
+            overflow: visible;
+
+            &:hover,
+            &:focus {
+                text-decoration: none;
+            }
+        }
+    }
+
+    .footerBar {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        line-height: 1.25;
+
+        p {
+            margin-top: 0;
+            margin-bottom: 0;
+
+            * {
+                display: inline;
+            }
+        }
+
+        @media #{$media-breakpoint-down-sm} {
+            .float-sm-none {
+                width: auto;
+            }
+        }
+    }
+}
+
+
+/**
+ * Debuginfos
+ */
+#debuginfo {
+    padding-top: 1rem;
+}

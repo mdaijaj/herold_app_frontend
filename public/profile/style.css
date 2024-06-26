@@ -1,0 +1,590 @@
+ html {
+     font-size: 14px;
+ }
+
+ h1 {
+     margin-bottom: 25px;
+     font-size: 40px;
+     text-transform: uppercase;
+ }
+
+ h2 {
+     margin: 0.5rem 0 1rem 0;
+     font-size: 20px;
+ }
+
+ a,
+ .likeA {
+     color: black;
+     cursor: pointer;
+ }
+
+ a:hover,
+ .likeA:hover {
+     color: black;
+ }
+
+ .btn-hbd,
+ [data-advno] {
+     text-decoration: none !important;
+ }
+
+ a.highlight {
+     text-decoration: underline;
+ }
+
+ a.highlight:hover {
+     color: black;
+     text-decoration: underline;
+ }
+
+ .medium {
+     font-family: 'Colfax Medium', sans-serif;
+     font-weight: normal;
+ }
+
+
+ #container-main a:not(.btn-hbd),
+ #extLoginDropdown a:not(.btn-hbd) {
+     text-decoration: underline;
+ }
+
+ .small {
+     font-size: 0.85rem;
+ }
+
+ .hidden {
+     display: none !important;
+     visibility: hidden;
+ }
+
+ .break-md {
+     display: none;
+ }
+
+ @media {
+     .break-md {
+         display: block;
+     }
+ }
+
+ hr {
+     border-top: 1px solid $HEROLD-border;
+ }
+
+ @media {
+
+
+     .row .col-md-4:not(:last-child),
+     .row .col-md-8:not(:last-child),
+     .row .col-md-12:not(:last-child),
+     .row .pr5px:not(:last-child) {
+         padding-right: 5px;
+     }
+ }
+
+ .container.noPadding {
+     padding-left: 0;
+     padding-right: 0;
+ }
+
+ .floatLook {
+     margin: auto;
+     width: 100%;
+     max-width: 450px;
+ }
+
+ .floatLook #form_login,
+ .floatLook #send_password,
+ .floatLook #registerform {
+     padding: 1rem;
+ }
+
+ .floatLook #email {
+     margin-top: 1rem;
+ }
+
+ @media {
+
+     .floatLook #form_login,
+     .floatLook #send_password,
+     .floatLook #registerform {
+         background: gray;
+         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+     }
+ }
+
+ .hints {
+     margin: 2rem 0;
+ }
+
+ .hints>div {
+     text-align: center;
+ }
+
+ .hints [class^="icon"] {
+     color: $HEROLD-border;
+     font-size: 4rem;
+ }
+
+ .hints p {
+     font-family: 'Colfax Medium', sans-serif;
+ }
+
+ .lastItem {
+     margin-bottom: 100px;
+ }
+
+ p.intro {
+     font-size: 0.8rem;
+ }
+
+ p.warning,
+ p.error {
+     font-size: 1rem;
+     color: red;
+ }
+
+ p.hidden {
+     margin: 0;
+ }
+
+ p.success {
+     font-size: 1rem;
+     color: green;
+ }
+
+ .hidden,
+ .hideit {
+     display: none;
+ }
+
+ .hideImportant {
+     display: none !important;
+ }
+
+ .main_gui .container {
+     max-width: 960px;
+ }
+
+ #myProfileSteps .step {
+     margin-top: 1.5rem;
+ }
+
+ .rightTxt {
+     text-align: right;
+ }
+
+ .list-inline li {
+     margin: 0.5rem 0;
+ }
+
+ input[type="text"],
+ input[type="email"],
+ input[type="password"] {
+     width: 100%;
+ }
+
+ .pie-wrapper {
+     width: 100px;
+     height: 100px;
+     position: relative;
+     margin-top: 30px;
+     float: left;
+ }
+
+ .pie-wrapper+p {
+     float: left;
+     margin: 70px 0 0 20px;
+ }
+
+ .pie {
+     width: 50%;
+     height: 100%;
+     position: absolute;
+     background: gray;
+     border: 10px solid $HEROLD-border;
+     transform-origin: 100% 50%;
+ }
+
+ .pie-spinner {
+     border-radius: 50px 0 0 50px;
+     z-index: 200;
+     border-right: none;
+     transform: rotate(0turn);
+     transition: transform 1s;
+ }
+
+ .pie-filler {
+     border-radius: 0 50px 50px 0;
+     z-index: 100;
+     border-left: none;
+     left: 50%;
+     opacity: 0;
+ }
+
+ .pie-mask {
+     width: 50%;
+     height: 100%;
+     position: absolute;
+     z-index: 300;
+     opacity: 1;
+     background: inherit;
+ }
+
+ .pie-text {
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     z-index: 400;
+     color: white;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .pie-text span {
+     width: 80%;
+     height: 80%;
+     background-color: black;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     left: 10px;
+     top: 10px;
+     position: absolute;
+     border-radius: 50%;
+ }
+
+ .pie-over50 .pie-filler {
+     opacity: 1;
+ }
+
+ .pie-over50 .pie-mask {
+     opacity: 0;
+ }
+
+ .imgareaselect-border1,
+ .imgareaselect-border2,
+ .imgareaselect-border3,
+ .imgareaselect-border4 {
+     filter: alpha(opacity=50);
+     opacity: 0.5;
+ }
+
+ .imgareaselect-handle {
+     background-color: #ffffff;
+     border: solid 1px #000000;
+     filter: alpha(opacity=50);
+     opacity: 0.5;
+ }
+
+ .imgareaselect-outer {
+     opacity: 0.5;
+ }
+
+ .ui-front {
+     z-index: 1500;
+ }
+
+ .ui-widget-header {
+     background: #ffffff;
+     border: 0;
+ }
+
+ .ui-dialog-titlebar-close {
+     background: #ffffff;
+     border: 0 none;
+     color: #333333;
+ }
+
+ .ui-dialog-titlebar-close:before {
+     content: 'x';
+ }
+
+ .file_input_textbox {
+     height: auto;
+     width: 100%;
+     float: left;
+     padding: 0.3em;
+     margin-right: 10px;
+ }
+
+ .file_input_div {
+     position: relative;
+     width: 100%;
+     height: auto;
+     overflow: hidden;
+     max-width: 27em;
+ }
+
+ .file_input_hidden {
+     position: absolute;
+     left: -9999em;
+ }
+
+ .photoDialog.grid8.wrapper {
+     max-width: 42em;
+ }
+
+ .photo_upload,
+ .photoDialog {
+     display: none;
+ }
+
+ .previewWrapper {
+     float: right;
+ }
+
+ .photo_preview_content {
+     float: right;
+     margin: -2.2em 0 0 2em;
+ }
+
+ .photo_preview {
+     position: relative;
+     height: 220px;
+     width: 310px;
+     overflow: hidden;
+     border: 1px solid #000000;
+ }
+
+ .photo_preview.square {
+     width: 160px;
+     height: 160px;
+ }
+
+ #preview_photo {
+     position: absolute;
+ }
+
+ img#uploadedImage {
+     max-height: 300px;
+ }
+
+ .imgcrop {
+     float: left;
+     position: relative;
+ }
+
+ .uploadedImage_status {
+     position: absolute;
+     left: 0;
+     right: 0;
+     top: 50%;
+     text-align: center;
+     display: none;
+     background: white;
+ }
+
+ .uploadedImage_status span {
+     display: inline-block;
+     padding: 7px 0 0 9px;
+     vertical-align: top;
+ }
+
+ #loadingStatus_upload {
+     background-color: #65b121;
+     width: 0;
+     height: 1.25em;
+     font-size: 12px;
+     white-space: nowrap;
+     max-width: 32.6em;
+ }
+
+ #loadingStatus_upload img {
+     margin-top: 1px;
+ }
+
+ .imgUploadBtn {
+     position: relative;
+ }
+
+ .imgUploadBtn .openPhotoDialog {
+     position: absolute;
+     left: 50%;
+     top: 47px;
+     width: 90%;
+     margin-left: -45%;
+     display: block;
+     background-color: #fff;
+     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ccffffff, endColorstr=#ccffffff);
+     -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ccffffff, endColorstr=#ccffffff);
+ }
+
+ .imgUploadBtn .btn.noIcon .btn-inner {
+     padding: 0.1em 0;
+ }
+
+ .imgUploadBtn .btn .btn-inner .btn-text {
+     font-size: 0.875em;
+ }
+
+ .photoDialog #inputelement {
+     margin-bottom: 1em;
+     display: none;
+ }
+
+ .photoDialog #inputelement>label {
+     display: block;
+ }
+
+ .photoDialog #inputelement>input {
+     max-width: 34em;
+ }
+
+ .photoDialog .btn.action,
+ .photoDialog .btn.subaction {
+     float: left;
+     margin-right: 0.25em;
+ }
+
+ .photoDialog p.status.block {
+     clear: both;
+ }
+
+ #cookie-overlay {
+     display: none;
+     width: 100%;
+     position: fixed;
+     bottom: 0;
+     left: 0;
+     background: gray;
+     color: white;
+     z-index: 10000;
+     text-align: center;
+     padding: 0.5rem;
+     font-size: 0.875rem;
+ }
+
+ #cookie-overlay .btn {
+     padding-top: 0;
+     padding-bottom: 0;
+ }
+
+ #cookie-overlay .btn.btn-default {
+     background: gray;
+     color: white;
+ }
+
+ #cookie-overlay a {
+     color: inherit;
+     text-decoration: underline;
+ }
+
+ .pie-wrapper {
+     width: 100px;
+     height: 100px;
+     position: relative;
+     margin-top: 30px;
+     float: left;
+ }
+
+
+ .pie-wrapper .pie {
+     width: 50%;
+     height: 100%;
+     position: absolute;
+     background: #f9f7f7;
+     border: 10px solid #bec1c2;
+     transform-origin: 100% 50%;
+ }
+
+ .pie-wrapper .pie-spinner {
+     border-radius: 50px 0 0 50px;
+     z-index: 200;
+     border-right: none;
+     transform: rotate(0turn);
+     transition: transform 1s;
+ }
+
+ .pie-wrapper .pie {
+     width: 50%;
+     height: 100%;
+     position: absolute;
+     background: #f9f7f7;
+     border: 10px solid #bec1c2;
+     transform-origin: 100% 50%;
+ }
+
+ .pie-wrapper .pie-filler {
+     border-radius: 0 50px 50px 0;
+     z-index: 100;
+     border-left: none;
+     left: 50%;
+     opacity: 0;
+ }
+
+ .pie-wrapper .pie-mask {
+     width: 50%;
+     height: 100%;
+     position: absolute;
+     z-index: 300;
+     opacity: 1;
+     background: inherit;
+ }
+
+ .pie-wrapper .pie-text {
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     z-index: 400;
+     color: #fff;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .pie-wrapper .pie-text span {
+     width: 80%;
+     height: 80%;
+     background-color: #3c4448;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     left: 10px;
+     top: 10px;
+     position: absolute;
+     border-radius: 50%;
+ }
+
+ .pie-wrapper+p {
+     float: left;
+     margin: 70px 0 0 20px;
+ }
+
+
+ .imgUploadBtn .openPhotoDialog {
+     position: absolute;
+     left: 50%;
+     top: 47px;
+     width: 90%;
+     margin-left: -45%;
+     display: block;
+     background-color: #fff;
+     background-color: rgba(255, 255, 255, .8);
+     filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#ccffffff, endColorstr=#ccffffff)";
+     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#ccffffff, endColorstr=#ccffffff)";
+ }
+
+ #container-main a:not(.btn-hbd),
+ #extLoginDropdown a:not(.btn-hbd) {
+     text-decoration: underline;
+ }
+
+ .imgUploadBtn .btn.noIcon .btn-inner {
+     padding: 0.1em 0;
+ }
+
+ h2 {
+     margin: 0.5rem 0 1rem 0;
+     font-size: 20px;
+     font-family: "Colfax Bold", sans-serif;
+     font-weight: normal;
+     -webkit-font-smoothing: antialiased;
+     -moz-osx-font-smoothing: grayscale;
+ }
+
+ .imgUploadBtn {
+     position: relative;
+ }

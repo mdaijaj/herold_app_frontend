@@ -1,0 +1,171 @@
+.geo-overview_template_geoInfo__3BP-T {
+    padding: 2rem 0;
+    position: relative
+}
+
+.geo-overview_template_geoInfoContainer__3PiUE {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    isolation: isolate;
+    color: #fff
+}
+
+.geo-overview_template_geoInfoBox__2Cgh0 {
+    display: -webkit-inline-flex;
+    display: -moz-inline-box;
+    display: inline-flex;
+    -webkit-flex-direction: column;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    flex-direction: column;
+    grid-gap: 2rem;
+    gap: 2rem;
+    backdrop-filter: brightness(.5);
+    padding: 1rem
+}
+
+.geo-overview_template_geoInfoTitle__2290I {
+    font-family: Satoshi-Medium;
+    font-size: 2rem
+}
+
+.geo-overview_template_geoInfoDescription__1n_Z8 {
+    font-family: Satoshi-Medium;
+    max-width: 500px
+}
+
+.geo-overview_template_geoGroups__2B5Nr {
+    max-width: 1280px;
+    margin: 2rem auto
+}
+
+.geo-overview_template_geoGroupsContainer__oC37W {
+    padding: 3rem;
+    margin: 0 auto 4rem;
+    display: block;
+    -webkit-columns: 3;
+    -moz-columns: 3;
+    column-count: 3
+}
+
+@media screen and (max-width:1200px) {
+    .geo-overview_template_geoGroupsContainer__oC37W {
+        -webkit-columns: 2;
+        -moz-columns: 2;
+        column-count: 2
+    }
+}
+
+@media screen and (max-width:992px) {
+    .geo-overview_template_geoGroupsContainer__oC37W {
+        -webkit-columns: 1;
+        -moz-columns: 1;
+        column-count: 1
+    }
+}
+
+.geo-overview_template_geoGroup__gRjQW {
+    border-radius: 1rem;
+    padding: 2rem;
+    background-color: #fff;
+    -webkit-flex: 0 1 350px;
+    -moz-box-flex: 0;
+    flex: 0 1 350px;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: flex;
+    -webkit-flex-direction: column;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    flex-direction: column;
+    grid-gap: .5rem;
+    gap: .5rem;
+    page-break-inside: avoid;
+    -webkit-column-break-inside: avoid;
+    break-inside: avoid
+}
+
+.geo-overview_template_geoGroup__gRjQW:not(:first-of-type) {
+    margin-top: 1rem
+}
+
+.geo-overview_template_geoGroupHeader__3nUY1 {
+    font-family: Satoshi-Black;
+    font-weight: 900;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: flex;
+    grid-gap: .5rem;
+    gap: .5rem
+}
+
+.geo-overview_template_geoGroupItem__ojEL6 {
+    padding-left: 1.75rem
+}
+
+.geo-overview_template_geoGroupItem__ojEL6:hover {
+    text-decoration: underline
+}
+
+.geo-overview_template_noGroups__18sOw {
+    -webkit-flex: 1 1 100%;
+    -moz-box-flex: 1;
+    flex: 1 1 100%;
+    text-align: center
+}
+
+.page-not-found_main__2KjbG {
+    min-height: max(30vh, 200px);
+    position: relative
+}
+
+.page-not-found_main__2KjbG .page-not-found_content__2ORwo {
+    position: absolute;
+    inset: 0;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: flex;
+    -webkit-flex-direction: column;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    flex-direction: column;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    justify-content: center;
+    margin: 0 20px
+}
+
+.page-not-found_main__2KjbG .page-not-found_content__2ORwo .page-not-found_heading__1w6fd {
+    margin-bottom: 15px;
+    font-family: Satoshi-Medium, Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px
+}
+
+.page-not-found_main__2KjbG .page-not-found_content__2ORwo .page-not-found_subheading__3yJ4Y {
+    margin-bottom: 30px;
+    font-size: 18px
+}
+
+.page-not-found_main__2KjbG .page-not-found_content__2ORwo .page-not-found_button_wrapper__35dTS {
+    display: -webkit-flex;
+    display: -moz-box;
+    display: flex;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    justify-content: center;
+    height: 50px
+}
+
+@media screen and (max-width:576px) {
+    .page-not-found_main__2KjbG .page-not-found_content__2ORwo .page-not-found_button_wrapper__35dTS {
+        height: 40px
+    }
+}

@@ -1,0 +1,74 @@
+@mixin fontRegular() {
+    font-family: 'Colfax', sans-serif;
+    font-weight: normal;
+}
+
+@mixin fontMedium() {
+    font-family: 'Colfax Medium', sans-serif;
+    font-weight: normal;
+}
+
+@mixin fontBold() {
+    font-family: 'Colfax Bold', sans-serif;
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@mixin fontBlack() {
+    font-family: 'Colfax Black', sans-serif;
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@mixin lineClamp($lineCount) {
+    display: -webkit-box;
+    -webkit-line-clamp: $lineCount;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+@mixin boxShadow() {
+    -webkit-box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.2);
+}
+
+@mixin topShadow() {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0) 30px);
+}
+
+$media-breakpoint-up-sm: "(min-width: 576px)";
+$media-breakpoint-up-md: "(min-width: 768px)";
+$media-breakpoint-up-lg: "(min-width: 992px)";
+$media-breakpoint-up-xl: "(min-width: 1200px)";
+$media-breakpoint-up-xxl: "(min-width: 1400px)";
+$media-breakpoint-down-sm: "(max-width: 575px)";
+$media-breakpoint-down-md: "(max-width: 767px)";
+$media-breakpoint-down-lg: "(max-width: 991px)";
+$media-breakpoint-down-xl: "(max-width: 1199px)";
+$media-breakpoint-md: "(min-width: 768px) and (max-width: 991.98px)";
+$media-breakpoint-lg: "(min-width: 992px) and (max-width: 1199.98px)";
+
+$HEROLD-white: #ffffff;
+$HEROLD-yellow: rgb(254, 198, 0);
+$HEROLD-blue: #264a88;
+$HEROLD-gray: #61686f;
+$HEROLD-text: #3c4448;
+$HEROLD-border: #bec1c2;
+$HEROLD-background: #f9f7f7;
+$HEROLD-stars: #ffc800;
+$HEROLD-opHours-green: #4bb05b;
+$HEROLD-opHours-orange: #f07f3c;
+$HEROLD-gray-on-gray: #909090;
+$HEROLD-lightgray: #bec1c2;
+$HEROLD-darkgray: #757575;
+$HEROLD-links: #3b74d4;
+$HEROLD-error: #ef0303;
+
+$HEROLD-yellow-hover: rgb(254, 198, 0);
+$HEROLD-blue-hover: #2d57a1;
+$HEROLD-gray-hover: #6d757d;
+$HEROLD-background-hover: #ffffff;
+$HEROLD-gray-rgba-75: rgba(0, 0, 0, 0.75);

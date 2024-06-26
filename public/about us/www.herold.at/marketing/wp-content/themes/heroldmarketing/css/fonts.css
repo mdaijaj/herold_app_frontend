@@ -1,0 +1,140 @@
+@font-face {
+	font-family: Satoshi-Variable;
+	src: url(https://www.herold.at/marketing/wp-content/themes/heroldmarketing/fonts/Satoshi-Variable.woff2) format("woff2"), url(https://www.herold.at/marketing/wp-content/themes/heroldmarketing/fonts/Satoshi-Variable.woff) format("woff"), url(https://www.herold.at/marketing/wp-content/themes/heroldmarketing/fonts/Satoshi-Variable.ttf) format("truetype");
+	font-weight: 300 900;
+	font-display: swap;
+	font-style: normal
+}
+
+@font-face {
+	font-family: Satoshi-VariableItalic;
+	src: url(https://www.herold.at/marketing/wp-content/themes/heroldmarketing/fonts/Satoshi-VariableItalic.woff2) format("woff2"), url(https://www.herold.at/marketing/wp-content/themes/heroldmarketing/fonts/Satoshi-VariableItalic.woff) format("woff"), url(https://www.herold.at/marketing/wp-content/themes/heroldmarketing/fonts/Satoshi-VariableItalic.ttf) format("truetype");
+	font-weight: 300 900;
+	font-display: swap;
+	font-style: italic
+}
+
+@font-face {
+	font-family: Satoshi-Light;
+	src: url(https://www.herold.at/marketing/wp-content/themes/heroldmarketing/fonts/Satoshi-Light.woff2) format("woff2"), url(https://www.herold.at/marketing/wp-content/themes/heroldmarketing/fonts/Satoshi-Light.woff) format("woff"), url(https://www.herold.at/marketing/wp-content/themes/heroldmarketing/fonts/Satoshi-Light.ttf) format("truetype");
+	font-weight: 300;
+	font-display: swap;
+	font-style: normal
+}
+
+@font-face {
+	font-family: Satoshi-LightItalic;
+	src: url(https://www.herold.at/marketing/wp-content/themes/heroldmarketing/fonts/Satoshi-LightItalic.woff2) format("woff2"), url(https://www.herold.at/marketing/wp-content/themes/heroldmarketing/fonts/Satoshi-LightItalic.woff) format("woff"), url(https://www.herold.at/marketing/wp-content/themes/heroldmarketing/fonts/Satoshi-LightItalic.ttf) format("truetype");
+	font-weight: 300;
+	font-display: swap;
+	font-style: italic
+}
+
+@font-face {
+	font-family: Satoshi-Regular;
+	src: url(https://www.herold.at/marketing/wp-content/themes/heroldmarketing/fonts/Satoshi-Regular.woff2) format("woff2"), url(https://www.herold.at/marketing/wp-content/themes/heroldmarketing/fonts/Satoshi-Regular.woff) format("woff"), url(https://www.herold.at/marketing/wp-content/themes/heroldmarketing/fonts/Satoshi-Regular.ttf) format("truetype");
+	font-weight: 400;
+	font-display: swap;
+	font-style: normal
+}
+
+@font-face {
+	font-family: Satoshi-Italic;
+	src: url(https://www.herold.at/marketing/wp-content/themes/heroldmarketing/fonts/Satoshi-Italic.woff2) format("woff2"), url(https://www.herold.at/marketing/wp-content/themes/heroldmarketing/fonts/Satoshi-Italic.woff) format("woff"), url(https://www.herold.at/marketing/wp-content/themes/heroldmarketing/fonts/Satoshi-Italic.ttf) format("truetype");
+	font-weight: 400;
+	font-display: swap;
+	font-style: italic
+}
+
+@font-face {
+	font-family: Satoshi-Medium;
+	src: url(https://www.herold.at/marketing/wp-content/themes/heroldmarketing/fonts/Satoshi-Medium.woff2) format("woff2"), url(https://www.herold.at/marketing/wp-content/themes/heroldmarketing/fonts/Satoshi-Medium.woff) format("woff"), url(https://www.herold.at/marketing/wp-content/themes/heroldmarketing/fonts/Satoshi-Medium.ttf) format("truetype");
+	font-weight: 500;
+	font-display: swap;
+	font-style: normal
+}
+
+@font-face {
+	font-family: Satoshi-MediumItalic;
+	src: url(https://www.herold.at/marketing/wp-content/themes/heroldmarketing/fonts/Satoshi-MediumItalic.woff2) format("woff2"), url(https://www.herold.at/marketing/wp-content/themes/heroldmarketing/fonts/Satoshi-MediumItalic.woff) format("woff"), url(https://www.herold.at/marketing/wp-content/themes/heroldmarketing/fonts/Satoshi-MediumItalic.ttf) format("truetype");
+	font-weight: 500;
+	font-display: swap;
+	font-style: italic
+}
+
+@font-face {
+	font-family: Satoshi-Bold;
+	src: url(https://www.herold.at/marketing/wp-content/themes/heroldmarketing/fonts/Satoshi-Bold.woff2) format("woff2"), url(https://www.herold.at/marketing/wp-content/themes/heroldmarketing/fonts/Satoshi-Bold.woff) format("woff"), url(https://www.herold.at/marketing/wp-content/themes/heroldmarketing/fonts/Satoshi-Bold.ttf) format("truetype");
+	font-weight: 700;
+	font-display: swap;
+	font-style: normal
+}
+
+@font-face {
+	font-family: Satoshi-BoldItalic;
+	src: url(https://www.herold.at/marketing/wp-content/themes/heroldmarketing/fonts/Satoshi-BoldItalic.woff2) format("woff2"), url(https://www.herold.at/marketing/wp-content/themes/heroldmarketing/fonts/Satoshi-BoldItalic.woff) format("woff"), url(https://www.herold.at/marketing/wp-content/themes/heroldmarketing/fonts/Satoshi-BoldItalic.ttf) format("truetype");
+	font-weight: 700;
+	font-display: swap;
+	font-style: italic
+}
+
+@font-face {
+	font-family: Satoshi-Black;
+	src: url(https://www.herold.at/marketing/wp-content/themes/heroldmarketing/fonts/Satoshi-Black.woff2) format("woff2"), url(https://www.herold.at/marketing/wp-content/themes/heroldmarketing/fonts/Satoshi-Black.woff) format("woff"), url(https://www.herold.at/marketing/wp-content/themes/heroldmarketing/fonts/Satoshi-Black.ttf) format("truetype");
+	font-weight: 900;
+	font-display: swap;
+	font-style: normal
+}
+
+@font-face {
+	font-family: Satoshi-BlackItalic;
+	src: url(https://www.herold.at/marketing/wp-content/themes/heroldmarketing/fonts/Satoshi-BlackItalic.woff2) format("woff2"), url(https://www.herold.at/marketing/wp-content/themes/heroldmarketing/fonts/Satoshi-BlackItalic.woff) format("woff"), url(https://www.herold.at/marketing/wp-content/themes/heroldmarketing/fonts/Satoshi-BlackItalic.ttf) format("truetype");
+	font-weight: 900;
+	font-display: swap;
+	font-style: italic
+}
+
+@font-face {
+	font-family: Inter-Black;
+	src: url(https://www.herold.at/fonts/Inter-Black.ttf) format(truetype)
+}
+
+@font-face {
+	font-family: Inter-Bold;
+	src: url(https://www.herold.at/fonts/Inter-Bold.ttf) format(truetype)
+}
+
+@font-face {
+	font-family: Inter-ExtraBold;
+	src: url(https://www.herold.at/fonts/Inter-ExtraBold.ttf) format(truetype)
+}
+
+@font-face {
+	font-family: Inter-ExtraLight;
+	src: url(https://www.herold.at/fonts/Inter-ExtraLight.ttf) format(truetype)
+}
+
+@font-face {
+	font-family: Inter-Light;
+	src: url(https://www.herold.at/fonts/Inter-Light.ttf) format(truetype)
+}
+
+@font-face {
+	font-family: Inter-Medium;
+	src: url(https://www.herold.at/fonts/Inter-Medium.ttf) format(truetype)
+}
+
+@font-face {
+	font-family: Inter-Regular;
+	src: url(https://www.herold.at/fonts/Inter-Regular.ttf) format(truetype)
+}
+
+@font-face {
+	font-family: Inter-SemiBold;
+	src: url(https://www.herold.at/fonts/Inter-SemiBold.ttf) format(truetype)
+}
+
+@font-face {
+	font-family: Inter-Thin;
+	src: url(https://www.herold.at/fonts/Inter-Thin.ttf) format(truetype)
+}
