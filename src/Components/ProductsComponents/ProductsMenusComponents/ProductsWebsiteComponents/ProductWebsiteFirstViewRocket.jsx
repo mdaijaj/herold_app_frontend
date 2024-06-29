@@ -7,12 +7,10 @@ export const ProductWebsiteFirstViewRocket = () => {
     const [productDetails,setproductDetails]=useState();
     const { currentPageContent, currentPage, setCurrentPageContent, baseBackendRoute, gradimoAdviceNow } = useContext(AppContext);
     const titleParts = currentPageContent?.title.split(' ');
-    const { edit } = useParams();
-    console.log("kkkkk", edit)
+    const { id } = useParams();
     const buttonFunction= async()=>{
-        await axios.get(`${baseBackendRoute}/api/v1/products/product/${edit}`)
+        await axios.get(`${baseBackendRoute}/api/v1/products/product/${id}`)  //product button dynamic
         .then((res) => {
-            console.log(res);
             setproductDetails(res.data);
         })
         .catch((err) => {
@@ -119,7 +117,7 @@ export const ProductWebsiteFirstViewRocket = () => {
                                                                                 }
                                                                             </h1>
                                                                             : ""
-                                                                    }
+                                                                    }  
                                                                 </>
                                                                 :
                                                                 <>
@@ -148,7 +146,8 @@ export const ProductWebsiteFirstViewRocket = () => {
                             </div>
                             <div className="buttons">
                                 <div className="primary-button">
-                                    <a href="#pricing_gradimo" target="" _msttexthash="180739" _msthash="254">{productDetails?.buttom_name}</a>
+                                    {console.log("aijajkhan", productDetails)}
+                                    <a href="#pricing_gradimo" target="" _msttexthash="180739" _msthash="254">{productDetails?.button}</a>
                                 </div>
                                 <div className="secondary-button">
                                     <a href="/advice-now" target="" _msttexthash="206570" _msthash="255">{gradimoAdviceNow?.buttom_name}</a>

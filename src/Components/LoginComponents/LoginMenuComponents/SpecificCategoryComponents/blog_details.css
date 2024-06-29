@@ -1,41 +1,86 @@
+/* Flexbox Container Styling */
+.flex_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.wide_flex_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
 .fullwidth_inner {
     display: flex;
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    gap: 20px; /* Adds space between cards */
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
 }
 
-
-.blog-category-card {
-    min-width: 300px; /* Ensures a minimum width for each card */
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
+/* Card Styling */
+.card {
+    background-color: #fff;
     border-radius: 8px;
-    padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    flex-shrink: 0; /* Prevents the card from shrinking */
+    margin: 16px;
+    padding: 16px;
+    flex: 1 1 calc(33.333% - 32px); /* Adjust the percentage to control the number of cards per row */
+    box-sizing: border-box;
+    transition: transform 0.2s;
 }
 
-.blog-category-card h2 {
-    font-size: 1.5em;
-    margin-bottom: 10px;
+.card:hover {
+    transform: translateY(-5px);
 }
 
-.blog-category-card h4 {
-    font-size: 1.2em;
-    margin-bottom: 10px;
+.card h2 {
+    font-size: 24px;
+    margin-bottom: 8px;
 }
 
-.blog-category-card p {
-    font-size: 1em;
-    margin-bottom: 10px;
+.card p {
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.image-container {
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.category-image {
+    max-width: 100%;
+    border-radius: 4px;
 }
 
 .cta_btn {
     display: inline-block;
-    padding: 10px 20px;
-    color: #fff;
-    background-color: yellow;
+    margin-top: 8px;
+    padding: 8px 16px;
+    background-color: #ffd700;
+    color: #000;
     text-decoration: none;
     border-radius: 4px;
+    transition: background-color 0.2s;
+}
+
+.cta_btn:hover {
+    background-color: #ffbf00;
+}
+
+/* Button Wrapper */
+.button-wrapper {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.cta_btn.blue {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.cta_btn.blue:hover {
+    background-color: #0056b3;
 }

@@ -12,9 +12,9 @@ export const SpecificBlog = () => {
     const { setCounselerIdList, setGradimoAdviceNow, setSpecificBlog, setBlogsList, counselerList, counselerIdList, setIsMobile, setProductsList, baseBackendRoute, setCounselerList } = useContext(AppContext);
     useEffect(() => {
 
-
+        
         const getSpecificBlogList = async () => {
-            await axios.get(`${baseBackendRoute}/api/v1/blogs/blogs/category/new-blog-category-today/${encodeURIComponent(blog)}/`)
+            await axios.get(`${baseBackendRoute}/api/v1/blogs/blog-details/${encodeURIComponent(blog)}/`)
                 .then((res) => {
                     console.log(res);
                     setSpecificBlog(res.data)

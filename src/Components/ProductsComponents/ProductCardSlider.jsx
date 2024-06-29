@@ -40,7 +40,7 @@ export const ProductCardSlider = () => {
                                 {
                                     productsList?.map((value, index) => (
                                         <div className="card-item" id={value.name}>
-                                            <div
+                                                                                         <div
                                                 className="card-head rocket-lazyload entered lazyloaded exited"
                                                 style={{ backgroundImage: `url(${value.background_image})` }}
                                                 data-ll-status="loaded"
@@ -51,7 +51,7 @@ export const ProductCardSlider = () => {
                                                 <h2>{value.name}</h2>
                                                 <p>{value.short_description}</p>
                                                 <div className="secondary-button" id="secondary-button">
-                                                    <a href={`/marketing/${value.slug}`} target="">Learn more</a>
+                                                    <a href={`/marketing/${value?.slug}`} target="">Learn more</a>
                                                 </div>
                                             </div>
                                         </div>

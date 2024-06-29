@@ -14,7 +14,8 @@ export const RestaurantAZDetailsBox = () => {
     const srcSet = "(min-width: 769px) 170px, (min-width: 701px) 130px, (min-width: 577px) 100px, 80px";
     const { baseBackendRoute, specificCompanyInfo, gradimoRateNowContent, imageGallery, userCompany, companyPersonalInfo, openingHours } = useContext(AppContext);
     const [sliderRef, setSliderRef] = useState(null);
-
+    const gallery = specificCompanyInfo?.company_gallery || [];
+    
     function SampleNextArrow() {
         return (
 
@@ -586,67 +587,97 @@ export const RestaurantAZDetailsBox = () => {
                                     </div>
 
                                     <div className="image-gallery_element_multiple_images__3XP6j">
-                                    {console.log("kkkkkkk", specificCompanyInfo?.company_gallery) }
-                                        {
-                                            specificCompanyInfo?.company_gallery?.length > 0 ?
-                                                <Slider ref={setSliderRef} {...settings}>
-                                                    {
 
-                                                        specificCompanyInfo?.company_gallery?.map((data, index) => (
-                                                            <div data-yxt="ilg" id="mediaGallery" style={{ width: '100%', display: 'inline-block' }}>
-                                                                <div className="image-gallery_element_slide_inner__3SYCf">
-                                                                    <div
-                                                                        style={{
-                                                                            display: "block",
-                                                                            overflow: "hidden",
-                                                                            position: "absolute",
-                                                                            inset: 0,
-                                                                            boxSizing: "border-box",
-                                                                            margin: 0
-                                                                        }}
-                                                                    >
-                                                                    {console.log("baseBackendRoute", baseBackendRoute)}
-
-
-                                                                        <img
-                                                                            title="Preview - Photo 1 of A - Barraca - Portuguese specialties"
-                                                                            alt="Preview - Photo 1 of A - Barraca - Portuguese specialties"
-                                                                            srcSet={`${baseBackendRoute}/media/${data?.photo_vedio}`}
-                                                                            decoding="async"
-                                                                            data-nimg="fill"
-                                                                            className="image-gallery_element_image__1epLn"
-
-                                                                            style={{
-                                                                                position: "relative",
-                                                                                inset: 0,
-                                                                                boxSizing: "border-box",
-                                                                                padding: 0,
-                                                                                border: "none",
-                                                                                margin: "auto",
-                                                                                display: "block",
-                                                                                width: 0,
-                                                                                height: 0,
-                                                                                minWidth: "100%",
-                                                                                maxWidth: "100%",
-                                                                                minHeight: "100%",
-                                                                                maxHeight: "100%",
-                                                                                objectFit: "cover"
-                                                                            }}
-                                                                        />
-                                                                    </div>
-                                                                    <div className="image-gallery_element_loading_icon__931p1" />
-                                                                </div>
-                                                            </div>
-
-                                                        ))
-                                                    }
-                                                </Slider>
-                                                :
-                                                <></>
-                                        }
-
-
-                                    </div>
+            {gallery.length > 1 ? (
+                <Slider {...settings}>
+                    {gallery.map((data, index) => (
+                        <div key={index} data-yxt="ilg" id="mediaGallery" style={{ width: '100%', display: 'inline-block' }}>
+                            <div className="image-gallery_element_slide_inner__3SYCf">
+                                <div
+                                    style={{
+                                        display: "block",
+                                        overflow: "hidden",
+                                        position: "absolute",
+                                        inset: 0,
+                                        boxSizing: "border-box",
+                                        margin: 0
+                                    }}
+                                >
+                                    {console.log("baseBackendRoute", baseBackendRoute)}
+                                    <img
+                                        title="Preview - Photo 1 of A - Barraca - Portuguese specialties"
+                                        alt="Preview - Photo 1 of A - Barraca - Portuguese specialties"
+                                        srcSet={`${baseBackendRoute}/media/${data?.photo_vedio}`}
+                                        decoding="async"
+                                        data-nimg="fill"
+                                        className="image-gallery_element_image__1epLn"
+                                        style={{
+                                            position: "relative",
+                                            inset: 0,
+                                            boxSizing: "border-box",
+                                            padding: 0,
+                                            border: "none",
+                                            margin: "auto",
+                                            display: "block",
+                                            width: 0,
+                                            height: 0,
+                                            minWidth: "100%",
+                                            maxWidth: "100%",
+                                            minHeight: "100%",
+                                            maxHeight: "100%",
+                                            objectFit: "cover"
+                                        }}
+                                    />
+                                </div>
+                                <div className="image-gallery_element_loading_icon__931p1" />
+                            </div>
+                        </div>
+                    ))}
+                </Slider>
+            ) : gallery.length === 1 ? (
+                <div data-yxt="ilg" id="mediaGallery" style={{ width: '100%', display: 'inline-block' }}>
+                    <div className="image-gallery_element_slide_inner__3SYCf">
+                        <div
+                            style={{
+                                display: "block",
+                                overflow: "hidden",
+                                position: "absolute",
+                                inset: 0,
+                                boxSizing: "border-box",
+                                margin: 0
+                            }}
+                        >
+                            {console.log("baseBackendRoute", baseBackendRoute)}
+                            <img
+                                title="Preview - Photo 1 of A - Barraca - Portuguese specialties"
+                                alt="Preview - Photo 1 of A - Barraca - Portuguese specialties"
+                                srcSet={`${baseBackendRoute}/media/${gallery[0]?.photo_vedio}`}
+                                decoding="async"
+                                data-nimg="fill"
+                                className="image-gallery_element_image__1epLn"
+                                style={{
+                                    position: "relative",
+                                    inset: 0,
+                                    boxSizing: "border-box",
+                                    padding: 0,
+                                    border: "none",
+                                    margin: "auto",
+                                    display: "block",
+                                    width: 0,
+                                    height: 0,
+                                    minWidth: "100%",
+                                    maxWidth: "100%",
+                                    minHeight: "100%",
+                                    maxHeight: "100%",
+                                    objectFit: "cover"
+                                }}
+                            />
+                        </div>
+                        <div className="image-gallery_element_loading_icon__931p1" />
+                    </div>
+                </div>
+            ) : null}
+        </div>
 
                                 </div>
                             </div>

@@ -29,7 +29,7 @@ export const ProductFirstViewRocket = () => {
 
                     <div className="buttons">
                         <div className="primary-button">
-                            <a href="#products" target="">To the products</a>
+                            <a href="#products" target="">{productsPage?.button}</a>
                         </div>
 
                         <div className="secondary-button">

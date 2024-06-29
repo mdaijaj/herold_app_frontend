@@ -38,7 +38,7 @@ export const ProductsWebsite = () => {
             })
     }
 
-    getGradimoAdviceNow();
+    
     const fetchData = async () => {
         await axios.get(`${baseBackendRoute}/api/v1/products/product/${encodeURIComponent(id)}`)
             .then((res) => {
@@ -190,7 +190,7 @@ export const ProductsWebsite = () => {
             const res = await axios.get(`${baseBackendRoute}/api/v1/products/product/`);
             const resData = await res.data.sort((a, b) => a.id - b.id);
             setProductsList(resData);
-            console.log(resData);
+            console.log("resData", resData);
         }
         fetchAnotherData();
 
@@ -206,7 +206,7 @@ export const ProductsWebsite = () => {
                 })
         }
         getGradimoContact();
-
+        getGradimoAdviceNow();
 
         const getCounselersList = async () => {
             await axios.get(`${baseBackendRoute}/api/v1/counselor/counselors/`)

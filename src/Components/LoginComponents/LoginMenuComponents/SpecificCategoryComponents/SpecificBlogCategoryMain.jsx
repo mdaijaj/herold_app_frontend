@@ -1,158 +1,93 @@
-import { useContext, useEffect } from "react"
-import AppContext from "../../../../AppContext"
-import  './blog_details.css'
+import { useContext, useEffect } from "react";
+import AppContext from "../../../../AppContext";
+import './blog_details.css';
 
 export const SpecificBlogCategoryMain = () => {
     const { blogCategory, baseBackendRoute } = useContext(AppContext);
-    // let baseUrl="https://schema.org/"
-    // console.log("routes", baseBackendRoute)
+
     useEffect(() => {
-       
-    }, [blogCategory])
+        // Your effect logic here
+    }, [blogCategory]);
+
     return (
         <>
             <main id="primary" className="site-main">
-                { console.log("ggggggggg", blogCategory)}
                 <div id="bcn_widget-2" className="widget_breadcrumb_navxt">
-                    <div
-                        className="breadcrumbs"
-                        vocab="https://schema.org/"
-                        typeof="BreadcrumbList"
-                    >
+                    <div className="breadcrumbs" vocab="https://schema.org/" typeof="BreadcrumbList">
                         <span property="itemListElement" typeof="ListItem">
-                            <a
-                                property="item"
-                                typeof="WebPage"
-                                title="Go to Herald Blog."
-                                href="/blogs"
-                                className="home"
-                            >
-                                <span property="name">
-                                    <font style={{ verticalAlign: "inherit" }}>
-                                        <font style={{ verticalAlign: "inherit" }}>Home</font>
-                                    </font>
-                                </span>
+                            <a property="item" typeof="WebPage" title="Go to Herald Blog." href="/blogs" className="home">
+                                <span property="name">Home</span>
                             </a>
                             <meta property="position" content={1} />
                         </span>
-                        <img
-                            width={504}
-                            height={504}
-                            src="https://www.herold.at/blog/wp-content/uploads/2021/04/slide_right.svg"
-                        />
+                        <img width={504} height={504} src="https://www.herold.at/blog/wp-content/uploads/2021/04/slide_right.svg" />
                         <span property="itemListElement" typeof="ListItem">
-                            <span
-                                property="name"
-                                className="archive taxonomy category current-item"
-                            >
-                                <font style={{ verticalAlign: "inherit" }}>
-                                    <font style={{ verticalAlign: "inherit" }}>
-                                        {blogCategory?.blog_category[0].category_name}
-                                    </font>
-                                </font>
+                            <span property="name" className="archive taxonomy category current-item">
+                                {blogCategory?.blog_category[0].category_name}
                             </span>
-
                         </span>
                     </div>
                 </div>
-                <div className="entry-content">
-
-                    <h1 className="heroldblog_single_title">
-                        <font style={{ verticalAlign: "inherit" }}>
-                            <font style={{ verticalAlign: "inherit" }}>
-                                {blogCategory?.category?.category_name}
-                            </font>
-                        </font>
+                <div className="row">
+                    <h1 className="cols-6">
+                        {blogCategory?.category?.category_name}
                     </h1>
                     <div className="flex_wrapper wide_flex_wrapper">
                         <div
                             className="wp-block-cover has-background-dim herold_header_single header_archive"
-                            style={{
-                                backgroundImage:
-                                    `url(${baseBackendRoute}${blogCategory?.category?.image})`
-                            }}
+                            style={{ backgroundImage: `url(${baseBackendRoute}${blogCategory?.category?.image})` }}
                         >
-
-                            {/* blog details list */}
-                            <div className="wp-block-cover__inner-container">
-                                <div className="fullwidth_inner">
-                                    {blogCategory?.blogs.map((blog, index) => (
-                                        <div key={index} className="blog-category-card-details">
-                                            <h2>
-                                                <font style={{ verticalAlign: "inherit" }}>
-                                                    <font style={{ verticalAlign: "inherit" }}>
-                                                        {blog.title}
-                                                    </font>
-                                                </font>
-                                            </h2>
-                                            <p style={{color:"black" }}>{blog.name}</p>
-                                            <p style={{color:"black" }}>{blog.slug}</p>
-                                            <p style={{color:"black" }}>{blog.image_title}</p>
-                                            <p style={{color:"black" }}>{blog.description}</p>
-                                            <p style={{color:"black" }}>{blog.duration}</p>
-                                            <div className="image-container">
-                                                <img src={`${baseBackendRoute}/${blog.image}`} alt={blog.title} className="category-image" />
-                                            </div>
-                                            <a
-                                                href={`/specific-blog/${blog.id}`}
-                                                className="cta_btn yellow"
-                                            >
-                                                <font style={{ verticalAlign: "inherit" }}>
-                                                    <font style={{ verticalAlign: "inherit" }}>show more</font>
-                                                </font>
-                                            </a>
+                            {/* Blog details list */}
+                            <div className="fullwidth_inner">
+                                {blogCategory?.blogs.map((blog, index) => (
+                                    <div key={index} className="blog-category-card-details card">
+                                        <h2>{blog.title}</h2>
+                                        <p>{blog.name}</p>
+                                        <p>{blog.slug}</p>
+                                        <p>{blog.image_title}</p>
+                                        <p>{blog.description}</p>
+                                        <p>{blog.duration}</p>
+                                        <div className="image-container">
+                                            <img src={`${baseBackendRoute}/${blog.image}`} alt={blog.title} className="category-image" />
                                         </div>
-                                        
-                                    ))}
-                                </div>
-           
-                            </div>
-                            <br/> <br/>
-
-                                    {/* category details list */}
-                                    <div className="wp-block-cover__inner-container">
-                                        <div className="fullwidth_inner">
-                                            {blogCategory?.blog_category.map((category, index) => (
-                                                <div key={index} className="blog-category-card-details">
-                                                    <h2>
-                                                        <font style={{ verticalAlign: "inherit" }}>
-                                                            <font style={{ verticalAlign: "inherit" }}>
-                                                                {category.title}
-                                                            </font>
-                                                        </font>
-                                                    </h2>
-                                                    <p style={{color:"black" }}>{category.category_name}</p>
-                                                    <p style={{color:"black" }}>{category.slug}</p>
-                                                    <div className="image-container">
-                                                        <img src={`${baseBackendRoute}/${category.image}`} alt={category.title} className="category-image" />
-                                                    </div>
-                                                </div>
-                                            ))}
-                                        </div>
+                                        <a href={`/specific-blog/${blog.slug}`} className="cta_btn yellow">Show more</a>
                                     </div>
+                                ))}
+                            </div>
+                        </div>
+                    </div>
 
-                                                            </div>
-                                                        </div>
+                    {/* Button */}
+                    <div className="button-wrapper">
+                        <a href="/some-route" className="cta_btn blue btn">Click Me</a>
+                    </div>
 
+                    {/* Category details list */}
+                    <div className="flex_wrapper wide_flex_wrapper">
+                        <div className="fullwidth_inner">
+                            {blogCategory?.blog_category.map((category, index) => (
+                                <div key={index} className="blog-category-card-details card">
+                                    <h2>{category.title}</h2>
+                                    <p>{category.category_name}</p>
+                                    <p>{category.slug}</p>
+                                    <div className="image-container">
+                                        <img src={`${baseBackendRoute}/${category.image}`} alt={category.title} className="category-image" />
+                                    </div>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
 
                     <div className="archive_desc flex_wrapper">
                         <p>
-                            <strong>
-                                <font style={{ verticalAlign: "inherit" }}>
-                                    <font style={{ verticalAlign: "inherit" }}>
-                                        {blogCategory?.category?.title}
-                                    </font>
-                                </font>
-                            </strong>
+                            <strong>{blogCategory?.category?.title}</strong>
                         </p>
                     </div>
-                </div>
-                <div className="flex_wrapper three_posts_wrap">
-
-                    <ul className="current_posts three_posts">
-                        {
-                            blogCategory?.blog_card?.map((data, index) => (
-                                <li className="shadow">
+                    
+                    <div className="flex_wrapper three_posts_wrap">
+                        <ul className="current_posts three_posts">
+                            {blogCategory?.blog_card?.map((data, index) => (
+                                <li key={index} className="shadow">
                                     <div className="sh_inner">
                                         <div className="sh_img_inner">
                                             <a href={`/specific-blog/${data.slug}/`}>
@@ -170,46 +105,18 @@ export const SpecificBlogCategoryMain = () => {
                                             </a>
                                         </div>
                                         <div className="shadow_inner">
-                                            <p className="right_author_name">
-                                                <font style={{ verticalAlign: "inherit" }}>
-                                                    <font style={{ verticalAlign: "inherit" }}>
-                                                        {data.title}
-                                                    </font>
-                                                </font>
-                                            </p>
-                                            <p className="author_readtime">
-                                                <font style={{ verticalAlign: "inherit" }}>
-                                                    <font style={{ verticalAlign: "inherit" }}>
-                                                        {`${blogCategory?.editor?.editor_name} |  ${blogCategory?.duration}`}
-                                                    </font>
-                                                </font>
-                                            </p>
-                                            <a
-                                                href={`/specific-blog/${data.slug}/`}
-                                                className="cta_btn blue"
-                                            >
-                                                <font style={{ verticalAlign: "inherit" }}>
-                                                    <font style={{ verticalAlign: "inherit" }}>To the post</font>
-                                                </font>
-                                            </a>
+                                            <p className="right_author_name">{data.title}</p>
+                                            <p className="author_readtime">{`${blogCategory?.editor?.editor_name} | ${blogCategory?.duration}`}</p>
+                                            <a href={`/specific-blog/${data.slug}/`} className="cta_btn blue">To the post</a>
                                         </div>
                                     </div>
                                 </li>
-                            ))
-                        }
-
-                    </ul>
-                    <a
-                        href="/blogs"
-                        className="cta_btn blue btn loadMoreBtn"
-                    >
-                        <font style={{ verticalAlign: "inherit" }}>
-                            <font style={{ verticalAlign: "inherit" }}>Back to overview</font>
-                        </font>
-                    </a>
+                            ))}
+                        </ul>
+                        <a href="/blogs" className="cta_btn blue btn loadMoreBtn">Back to overview</a>
+                    </div>
                 </div>
             </main>
-
         </>
-    )
-}
+    );
+};
