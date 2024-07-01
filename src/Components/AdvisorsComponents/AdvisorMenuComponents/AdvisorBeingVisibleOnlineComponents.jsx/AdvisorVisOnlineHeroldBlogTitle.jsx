@@ -19,7 +19,7 @@ export const AdvisorBeingVisibleOnlineHeroldBlogTitle = () => {
                         <div class="wp-block-cover__inner-container">
                             <div class="fullwidth_inner">
                                 <h2>{advisorPageContent?.articles[0]?.article_title}</h2>
-                                <a href={`/adv/${id}/${advisorPageContent?.articles[0]?.slug}`} class="cta_btn yellow">Show more</a>
+                                <a href={`/adv/${id}/${advisorPageContent?.articles[0]?.slug}`} className="cta_btn yellow" style={{width: "50px", height: "50px"}}>Show more</a>
                             </div>
                         </div>
                     </div>
