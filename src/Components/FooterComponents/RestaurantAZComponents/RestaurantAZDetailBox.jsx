@@ -375,11 +375,11 @@ export const RestaurantAZDetailsBox = () => {
                                                                 </font>
                                                             </span>
                                                         </span>
-                                                    <p className="business-info-section_industry__1U1Bj">
+                                                    {/* <p className="business-info-section_industry__1U1Bj">
                                                         <font style={{ verticalAlign: "inherit" }}>
                                                             <font style={{ verticalAlign: "inherit" }}>{specificCompanyInfo?.industry?.industry_name}</font>
                                                         </font>
-                                                    </p>
+                                                    </p> */}
                                                 </div>
                                             </div>
                                         </div>

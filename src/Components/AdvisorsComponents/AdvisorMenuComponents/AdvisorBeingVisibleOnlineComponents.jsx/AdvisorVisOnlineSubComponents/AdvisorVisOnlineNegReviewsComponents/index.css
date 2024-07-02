@@ -1,0 +1,20 @@
+.cta_btn {
+    display: inline-block;
+    width: auto;
+    padding: 10px 20px;
+    height: 40px; /* Ensure button height is consistent */
+    line-height: 40px; /* Vertically center text */
+    text-align: center;
+    color: #fff;
+    background-color: #FFD700; /* Bright yellow */
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+    font-size: 16px; /* Larger, more readable text */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+}
+
+.cta_btn:hover {
+    background-color: #FFC107; /* Slightly darker yellow for hover effect */
+    transform: translateY(-2px); /* Subtle lift effect on hover */
+}

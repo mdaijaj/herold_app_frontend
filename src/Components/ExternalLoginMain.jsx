@@ -309,33 +309,33 @@ export const ExternalLoginMain = () => {
                                             I hereby agree to the
                                         </font>
                                     </font>
-                                    <a
+                                    {/* <a
                                         href="/legal/4/"
                                         target="_blank"
                                         rel="noopener"
                                         title="Opens new window"
-                                    >
+                                    > */}
                                         <font style={{ verticalAlign: "inherit" }}>
                                             <font style={{ verticalAlign: "inherit" }}>
                                                 general terms of use for Gradimo Skupaj portals
                                             </font>
                                         </font>
-                                    </a>
+                                    {/* </a> */}
                                     <font style={{ verticalAlign: "inherit" }}>
                                         <font style={{ verticalAlign: "inherit" }}> and the </font>
                                     </font>
-                                    <a
+                                    {/* <a
 
                                         target="_blank"
                                         title="Opens new window"
                                         rel="noopener"
-                                    >
+                                    > */}
                                         <font style={{ verticalAlign: "inherit" }}>
                                             <font style={{ verticalAlign: "inherit" }}>
                                                 data protection declaration
                                             </font>
                                         </font>
-                                    </a>
+                                    {/* </a> */}
                                     <font style={{ verticalAlign: "inherit" }}>
                                         <font style={{ verticalAlign: "inherit" }}> .</font>
                                     </font>
